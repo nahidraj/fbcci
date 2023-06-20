@@ -1,0 +1,198 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+// swiper slider css
+.banner {
+  background-color: #0d1130;
+}
+
+.banner__slider {
+  background-color: #0d1130;
+  padding: 0 0;
+  height: 685px;
+  max-width: 1920px;
+  margin: 0 auto;
+
+  .swiper-slide {
+    // padding-top: 20px;
+  }
+
+  .common-btn {
+    margin-top: 50px;
+  }
+
+  .banner-content {
+    padding-right: 120px;
+    padding-left: 40px;
+
+    h6 {
+      @include font(18px, 600);
+      color: $themeColor;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    h2 {
+      margin-top: 0;
+      @include font(46px, 700);
+      color: $white;
+    }
+
+    p {
+      @include font(16px, 500);
+      color: $white;
+      line-height: 28px;
+    }
+
+    .read-more-btn {
+      margin-top: 40px;
+      background-color: $white;
+      padding: 20px 30px;
+      width: 240px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 600;
+      color: $black;
+      border-radius: 50px;
+      border-top-left-radius: 50px;
+      border: 0;
+      border-top-left-radius: 0;
+      transition: all linear .2s;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: $themeColor;
+        color: $white;
+      }
+    }
+  }
+
+  .image {
+    height: 685px;
+    padding-left: 0;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 10;
+    background-image: none;
+    transition: all linear .2s;
+
+    &:hover {
+      background-color: $themeColor;
+    }
+
+    /* Additional styling properties */
+  }
+
+  .swiper-button-next {
+    right: 20px;
+  }
+
+  .swiper-button-prev {
+    left: 20px;
+  }
+}
+
+.banner-content h6 {
+  transform: translateY(-200px);
+  transition: all 2s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.banner-content h2 {
+  transform: translateY(-200px);
+  transition: all 1.5s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.banner-content .common-btn {
+  transform: translateY(200px);
+  transition: all 1s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.banner__slider .image {
+  transform: translateX(-400px);
+  transition: all 1s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.banner-content p {
+  transform: translateY(-200px);
+  transition: all 1s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.banner-content .read-more {
+  transform: translateY(200px);
+  transition: all 1s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.swiper-slide-active .banner-content h6 {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.swiper-slide-active .banner-content h2 {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.swiper-slide-active .common-btn {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.swiper-slide-active .read-more {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.swiper-slide-active .banner-content p {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.swiper-slide-active .image {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+// for swiper arrow
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}

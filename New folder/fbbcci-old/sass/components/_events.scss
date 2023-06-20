@@ -1,0 +1,90 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.events {
+  padding-top: 100px;
+}
+
+.event-item {
+  height: 553px;
+  overflow: hidden;
+  background-color: #FDF5EB;
+
+  .image {
+    height: 328px;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .text {
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    background-color: #FDF5EB;
+    transition: all 0.3s ease 0s;
+
+    ul {
+      padding-bottom: 10px;
+
+      li {
+        display: inline-block;
+        @include font(15px, 600);
+
+        i {
+          color: $themeColor;
+          padding-right: 5px;
+        }
+      }
+
+      li+li {
+        margin-left: 30px;
+      }
+    }
+
+    .title {
+      @include font(28px, 700);
+      color: $black;
+      transition: all linear .2s;
+      margin-bottom: 14px;
+
+      &:hover {
+        color: $themeColor;
+      }
+    }
+
+    .read-more {
+      padding: 17px 35px 15px 35px;
+      background-color: $themeColor;
+      border-radius: 4px;
+      @include font(16px, 600);
+      color: $white;
+      transition: all linear .2s;
+      opacity: 0;
+      visibility: hidden;
+      margin-top: 30px;
+
+      &:hover {
+        background-color: $black;
+      }
+
+      i {
+        margin-left: 8px;
+      }
+    }
+  }
+
+  &:hover {
+    .text {
+      transform: translateY(-95px);
+    }
+
+    .read-more {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

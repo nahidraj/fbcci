@@ -1,0 +1,62 @@
+@media (min-width: 1200px) and (max-width: 1919px) {
+  header .header-info {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 24px; }
+
+  header .header-info .single-header-contact-info {
+    margin-left: 0 !important;
+    position: relative;
+    padding-top: 13px;
+    width: 50% !important;
+    display: block !important;
+    padding-right: 20px; }
+
+  header .header-info .single-header-contact-info::before {
+    display: none !important; }
+
+  header .header-info .single-header-contact-info .icon-block {
+    width: 32px; }
+
+  .navbar {
+    top: 7px; }
+
+  nav ul {
+    padding-left: 20px !important; }
+
+  nav ul li a {
+    padding: 30px 15px !important; }
+
+  nav .get-quote {
+    left: unset;
+    width: 220px;
+    padding: 30px 24px !important;
+    margin-left: -12px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    right: 0; }
+
+  .banner .banner-slider .text h2 {
+    font-size: 97px;
+    line-height: 86px; }
+
+  .banner .banner-slider {
+    padding-bottom: 150px; }
+
+  .common-title h2 {
+    font-size: 42px; }
+
+  .about .text h4 {
+    padding-right: 0; }
+
+  .team-slider .left {
+    left: -15px; }
+
+  .team-slider .right {
+    right: -15px; } }
+
+/*# sourceMappingURL=responsive.css.map */

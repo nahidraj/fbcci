@@ -1,0 +1,30 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+
+.top-header {
+  background-color: $black;
+  padding: 10px 0;
+
+  .title {
+    p {
+      @include font(16px, 600);
+      color: $white;
+    }
+  }
+
+  .social {
+    ul {
+      li {
+        display: inline-block;
+        a{
+          margin-left: 15px;
+          color: $white;
+          &:hover{
+            color: $themeColor;
+          }
+        }
+      }
+    }
+  }
+}

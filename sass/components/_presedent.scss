@@ -1,0 +1,62 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.presedent-with-contact-form {
+  padding-top: 121px;
+
+  .presedent-bg {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+
+    .image {
+      img {
+        margin-top: -80px;
+      }
+    }
+
+    .text {
+      padding-top: 80px;
+      padding-bottom: 0;
+      padding-left: 60px;
+
+      h2 {
+        @include font(40px, 700);
+        margin-bottom: 20px;
+      }
+
+      h6 {
+        @include font(22px, 600);
+        margin-bottom: 30px;
+      }
+
+      p {
+        margin-bottom: 60px;
+      }
+
+      .read-more {
+        background-color: $black;
+        padding: 20px 30px;
+        width: 240px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        color: $white;
+        border-radius: 50px;
+        border-top-left-radius: 50px;
+        border: 0;
+        border-top-left-radius: 0;
+        transition: all linear .2s;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: $themeColor;
+        }
+      }
+
+      .sign {
+        margin-left: 40px;
+      }
+    }
+  }
+}

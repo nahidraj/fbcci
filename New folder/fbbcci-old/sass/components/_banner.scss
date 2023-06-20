@@ -1,0 +1,125 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+// swiper slider css
+.banner__slider {
+  background-color: #003952;
+  padding: 80px 0;
+  height: 886px;
+
+  .banner-content {
+    padding-left: 160px;
+
+    h6 {
+      @include font(18px, 600);
+      color: $themeColor;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    h2 {
+      margin-top: 20px;
+      line-height: 82px;
+      @include font(92px, 800);
+      color: $white;
+    }
+  }
+
+  .image {
+    height: 725px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 60px;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  }
+
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 10;
+    background-image: none;
+    transition: all linear .2s;
+
+    &:hover {
+      background-color: $themeColor;
+    }
+
+    /* Additional styling properties */
+  }
+
+  .swiper-button-next {
+    right: 20px;
+  }
+
+  .swiper-button-prev {
+    left: 20px;
+  }
+}
+
+.banner-content h6 {
+  transform: translateY(-700px);
+  transition: all 2s ease;
+  visibility: hidden;
+}
+
+.banner-content h2 {
+  transform: translateY(-700px);
+  transition: all 1.5s ease;
+  visibility: hidden;
+}
+
+.banner-content .common-btn {
+  transform: translateY(700px);
+  transition: all 1s ease;
+  visibility: hidden;
+}
+
+.banner__slider .image {
+  transform: translateX(400px);
+  transition: all 2s ease;
+  visibility: hidden;
+}
+
+.swiper-slide-active .banner-content h6 {
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.swiper-slide-active .banner-content h2 {
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.swiper-slide-active .common-btn {
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.swiper-slide-active .image {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+// for swiper arrow
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}

@@ -1,0 +1,66 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.counter-part {
+  padding-top: 0;
+
+  .counter-bg {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: top center !important;
+    background-attachment: fixed;
+
+    .overlay {
+      background-color: rgba(23, 28, 73, 0.9);
+      padding: 60px 0;
+    }
+  }
+}
+
+
+.counter-item {
+
+  i {
+    color: $white;
+    font-size: 42px
+  }
+
+  h3 {
+    color: $white;
+    @include font(42px, 700);
+    margin: 14px 0;
+  }
+
+  p {
+    color: $white;
+    @include font(22px, 600);
+  }
+}
+
+.counter-item.odd-item {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 49px;
+    right: -47px;
+    content: "";
+    width: 82px;
+    height: 30px;
+    background: url(../images/arrow-1.png);
+  }
+}
+
+.counter-item.even-item {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 51px;
+    right: -73px;
+    content: "";
+    width: 82px;
+    height: 30px;
+    background: url(../images/arrow-2.png);
+  }
+}
