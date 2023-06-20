@@ -92,15 +92,30 @@ $(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      500: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      1200: {
+        slidesPerView: 4,
+        resistanceRatio: 0
+      }
+    },
   });
 
 
   // service swiper slider js
-  var swiper = new Swiper('.client-slider', {
-    slidesPerView: 5,
-    spaceBetween: 24,
-    speed: 500,
-  });
+  // var swiper = new Swiper('.client-slider', {
+  //   slidesPerView: 5,
+  //   spaceBetween: 24,
+  //   speed: 500,
+  // });
 
   // back to top js
   var btn = $('#button');
