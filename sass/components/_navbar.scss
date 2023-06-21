@@ -415,3 +415,280 @@ nav {
   top: -100px;
   transition: .5s;
 }
+// mobile menu part start
+.mobile-top-header {
+  background-color: $black;
+
+  p {
+    padding: 8px 0;
+    color: $white;
+  }
+}
+
+.mobile-header {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 10px 0;
+
+  .mobile-social {
+    width: 140px;
+
+    ul {
+      li {
+        display: inline-block;
+        margin: 0 4px;
+
+        a {
+          color: $black;
+
+          &:hover {
+            color: $themeColor;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile-menu {
+  background-color: $black;
+  padding: 10px 0;
+
+  .slogan {
+    margin-right: 30px;
+
+    p {
+      color: $white;
+    }
+  }
+
+  .bar {
+    i {
+      width: 36px;
+      height: 36px;
+      background-color: $white;
+      color: $black;
+      text-align: center;
+      line-height: 36px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+
+.mobile-menu {
+
+  .mobile-topbar {
+    .logo {
+      position: relative;
+
+      h4 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 24px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 60px;
+      }
+
+      h3 {
+        font-weight: 700;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 60px;
+        width: 386px;
+
+        span {
+          color: #a57c00;
+        }
+      }
+    }
+
+    .icon {
+      i {
+        width: 45px;
+        height: 45px;
+        background-color: $themeColor;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 20px;
+        color: $white;
+        cursor: pointer;
+        transition: all linear .2s;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+        &:hover {
+          background-color: $themeColor;
+          color: $white;
+          border-color: $themeColor;
+        }
+      }
+    }
+  }
+
+  .mobile-menu-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .mobile-menu-main {
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 999;
+    overflow-y: scroll;
+    transition-duration: .3s;
+
+
+    .search-box {
+      height: 60px;
+      text-align: center;
+      line-height: 52px;
+      cursor: pointer;
+      position: relative;
+      margin-top: 20px;
+
+
+      .search-icon {
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 5px;
+        position: relative;
+
+        input {
+          width: 320px;
+          height: 42px;
+          border: 1px solid $black;
+          border-radius: 60px;
+          background-color: transparent;
+          padding: 0 50px 0 20px;
+          color: $black;
+          @include font(15px, 400);
+          transition: all 0.3s ease 0s;
+        }
+
+        img {
+          position: absolute;
+          top: 17px;
+          right: 20px;
+        }
+      }
+    }
+
+
+    .close-m-menu {
+      i {
+        width: 40px;
+        height: 40px;
+        background-color: $black;
+        text-align: center;
+        line-height: 40px;
+        color: $white;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all linear .2s;
+
+        &:hover {
+          background-color: $themeColor;
+        }
+      }
+    }
+
+    .menu-body {
+      padding: 20px;
+      padding-top: 0;
+
+      .menu-list {
+        padding-top: 10px;
+
+        ul {
+          li {
+            a {
+              font-size: 15px;
+              font-weight: 400;
+              color: #232F3E;
+              border-top: 1px solid #e0e0e0;
+              width: 100%;
+              line-height: 40px;
+              transition: all linear .2s;
+              position: relative;
+              padding-right: 60px;
+
+              &:hover {
+                color: $themeColor;
+              }
+
+              i {
+                width: 40px;
+                height: 40px;
+                background-color: #f2f2f2;
+                text-align: center;
+                line-height: 40px;
+                transition: all linear .2s;
+                position: absolute;
+                top: 0;
+                right: 0;
+              }
+
+              &:hover {
+                i {
+                  background-color: $themeColor;
+                  color: #ffffff;
+                }
+              }
+            }
+
+            ul {
+              padding-left: 20px;
+              display: none;
+
+              li {
+                a {
+                  line-height: 20px;
+                  padding: 10px 50px 10px 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile-menu-overlay {
+  transition-duration: .3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show-mobile-menu-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.show-mobile-menu {
+  right: 0 !important;
+}
+
+.mobile-sticky-top {
+  padding: 10px 0 !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+// mobile menu part end

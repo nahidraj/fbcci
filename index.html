@@ -338,16 +338,117 @@
         </ul>
         <div class="right-info d-flex align-items-center">
           <div class="search-box">
-            <div class="search-icon position-relative">
-              <input type="text" placeholder="Search">
-              <img src="images/search.png" alt="search" width="18">
-            </div>
+            <form action="">
+              <div class="search-icon position-relative">
+                <input type="text" placeholder="Search">
+                <button type="submit" class="border-0">
+                  <img src="images/search.png" alt="search" width="18">
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </nav>
   <!-- navbar part end -->
+  <!-- mobile menu part start -->
+  <div class="mobile-header d-lg-none">
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center">
+          <div class="mobile-logo">
+            <a href="">
+              <img src="images/logo.png" alt="logo" width="80">
+            </a>
+          </div>
+        </div>
+        <div class="col align-self-center">
+          <div class="mobile-social ms-2 text-center">
+            <ul class="list-unstyled">
+              <li>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col align-self-center">
+          <div class="mobile-bd-logo text-end">
+            <a href="">
+              <img src="images/5.jpeg" alt="" width="35">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="mobile-menu d-lg-none sticky-top">
+    <div class="mobile-topbar">
+      <div class="container">
+        <div class="topbar-main d-flex justify-content-between align-items-center">
+          <div class="slogan">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+    <div class="mobile-menu-main">
+      <div class="close-m-menu"><i class="fas fa-times"></i></div>
+      <div class="search-box">
+        <div class="search-icon position-relative">
+          <input type="text" placeholder="Search">
+          <img src="images/search.png" alt="search" width="18">
+        </div>
+      </div>
+      <div class="menu-body">
+        <div class="menu-list">
+          <ul class="list-unstyled">
+            <li class="sub-menu">
+              <a href="#">Home</a>
+            </li>
+            <li class="sub-menu">
+              <a href="#">Membership <i class="fas fa-angle-down float-end"></i></a>
+              <ul class="list-unstyled">
+                <li><a href="">Aims & Objectives</a></li>
+                <li class="sub-menu">
+                  <a href="#">BCS Historical Background gaes e ea eas esahs <i
+                      class="fas fa-angle-down float-end"></i></a>
+                  <ul class="list-unstyled">
+                    <li><a href="">Aims & Objectives</a></li>
+                    <li>
+                      <a href="#">BCS Historical Background gase gaase hsa ha eghas g</a>
+                    </li>
+                    <li><a href="">Activities</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Activities</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu"><a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- mobile menu part end -->
+
   <!-- banner part start -->
   <section class="banner">
     <div class="banner__slider overflow-hidden position-relative">
@@ -509,7 +610,7 @@
         </div>
         <div class="col-lg-8">
           <div class="row">
-            <div class="col-lg-6 align-self-center">
+            <div class="col-md-6 align-self-center">
               <div class="logo">
                 <img src="images/bs-logo.png" alt="bs-logo" class="img-fluid w-100">
                 <div class="overlay">
@@ -522,7 +623,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 align-self-center">
+            <div class="col-md-6 align-self-center">
               <div class="logo text-end ms-auto">
                 <img src="images/fa.png" alt="fa" class="img-fluid w-100">
                 <div class="overlay text-start">
@@ -553,7 +654,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6">
           <div class="news-item">
             <div class="news-image position-relative">
               <img src="images/banner-4.webp" alt="news-image" class="img-fluid w-100">
@@ -574,7 +675,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6">
           <div class="news-item">
             <div class="news-image position-relative">
               <img src="images/news-image.webp" alt="news-image" class="img-fluid w-100">
@@ -595,7 +696,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6">
           <div class="news-item">
             <div class="news-image position-relative">
               <img src="images/video-promo.webp" alt="news-image" class="img-fluid w-100">
@@ -776,35 +877,35 @@
       <div class="overlay">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-lg">
+            <div class="col-md-4 col-lg">
               <div class="counter-item odd-item text-center">
                 <i class="fas fa-chalkboard-teacher"></i>
                 <h3 class="counter">590</h3>
                 <p>Chambers</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg">
+            <div class="col-md-4 col-lg">
               <div class="counter-item even-item text-center">
                 <i class="fab fa-audible"></i>
                 <h3 class="counter">290</h3>
                 <p>Association</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg">
+            <div class="col-md-4 col-lg">
               <div class="counter-item odd-item text-center">
                 <i class="fas fa-sort-amount-up-alt"></i>
                 <h3 class="counter">215</h3>
                 <p>Joint Chambers</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg">
+            <div class="col-md-4 col-lg">
               <div class="counter-item even-item text-center">
                 <i class="fas fa-users"></i>
                 <h3 class="counter">315</h3>
                 <p>G.B Members</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg">
+            <div class="col-md-4 col-lg">
               <div class="counter-item text-center">
                 <i class="far fa-id-card"></i>
                 <h3 class="counter">125</h3>
@@ -822,13 +923,13 @@
   <section class="upcomming-event">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-md-7">
           <div class="common-title">
             <h4>Upcomming Event</h4>
           </div>
         </div>
-        <div class="col-lg-6 align-self-start">
-          <div class="common-btn text-start text-md-end mt-0">
+        <div class="col-md-5 align-self-start">
+          <div class="common-btn text-center text-md-end mt-0 d-none d-md-block">
             <a href="">View all event <i class="fas fa-long-arrow-alt-right"></i></a>
           </div>
         </div>
@@ -843,12 +944,12 @@
           <div class="upcomming-event-box">
             <div class="upcomming-event-item">
               <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-4">
                   <div class="image">
                     <img src="images/event.jpg" alt="event" class="img-fluid w-100">
                   </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-8">
                   <div class="text">
                     <a href="" class="title">THE WORLD CHAMPIONSHIP</a>
                     <span class="d-block"><i class="fas fa-map-marker-alt"></i> New Salford Road, Uk, M6 7AF</span>
@@ -865,12 +966,12 @@
             </div>
             <div class="upcomming-event-item">
               <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-4">
                   <div class="image">
                     <img src="images/event.jpg" alt="event" class="img-fluid w-100">
                   </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-8">
                   <div class="text">
                     <a href="" class="title">THE WORLD CHAMPIONSHIP</a>
                     <span class="d-block"><i class="fas fa-map-marker-alt"></i> New Salford Road, Uk, M6 7AF</span>
@@ -887,6 +988,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="common-btn text-center text-md-end mt-0 d-md-none mt-4">
+        <a href="">View all event <i class="fas fa-long-arrow-alt-right"></i></a>
       </div>
     </div>
   </section>
@@ -903,7 +1007,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6">
           <div class="event-item">
             <div class="image">
               <img src="images/ag.jpeg" alt="event-image" class="img-fluid w-100">
@@ -929,7 +1033,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6">
           <div class="event-item">
             <div class="image">
               <img src="images/sc.jpeg" alt="event-image" class="img-fluid w-100">
@@ -955,7 +1059,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6">
           <div class="event-item">
             <div class="image">
               <img src="images/scca.webp" alt="event-image" class="img-fluid w-100">
@@ -1024,7 +1128,7 @@
           <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
             tabindex="0">
             <div class="row parent-container">
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1043,7 +1147,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1062,7 +1166,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1081,7 +1185,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item video-gallery">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1100,7 +1204,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item video-gallery">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1119,7 +1223,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item video-gallery">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1143,7 +1247,7 @@
           <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
             tabindex="0">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item video-gallery">
                   <div class="image position-relative">
                     <img src="images/news-image.webp" alt="gallery-image" class="img-fluid w-100">
@@ -1160,7 +1264,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item video-gallery">
                   <div class="image position-relative">
                     <img src="images/ag.jpeg" alt="gallery-image" class="img-fluid w-100">
@@ -1177,7 +1281,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item video-gallery">
                   <div class="image position-relative">
                     <img src="images/news-image.webp" alt="gallery-image" class="img-fluid w-100">
@@ -1199,7 +1303,7 @@
           <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
             tabindex="0">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1218,7 +1322,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1237,7 +1341,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="gallery-item">
                   <a href="" class="d-block w-100">
                     <div class="image position-relative">
@@ -1272,7 +1376,7 @@
     <div class="footer-bg">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="contact-main">
               <h2 class="footer-title">Contact Us</h2>
               <div class="contact-form">
@@ -1293,7 +1397,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 ms-auto">
+          <div class="col-lg-3 col-md-5 ms-auto">
             <div class="footer-links">
               <h2 class="footer-title">Links</h2>
               <ul>
@@ -1313,7 +1417,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 mt-md-4 mt-lg-0">
             <h2 class="footer-title">Our Location</h2>
 
             <div class="footer-map">
@@ -1366,12 +1470,12 @@
         </div>
         <div class="footer-btm">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <div class="copyright">
                 <p>Copyright © 2023 <a href="">FBCCI</a>. All Rights Reserved.</p>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <div class="developed text-start text-md-end">
                 <p>Developed by: <a href="">Nogor Solutions Limited</a></p>
               </div>
