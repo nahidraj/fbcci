@@ -173,10 +173,10 @@ $(function () {
 
   // fixed menu js
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 600) {
+    if ($(this).scrollTop() > 300) {
       $('.sticky-top').addClass('shadow-lg').css('top', '0px');
     } else {
-      $('.sticky-top').removeClass('shadow-lg');
+      $('.sticky-top').removeClass('shadow-lg').css('top', '-100px');
     }
   });
 
