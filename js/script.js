@@ -174,9 +174,9 @@ $(function () {
   // fixed menu js
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
-      $('.mobile-menu').addClass('mobile-sticky-top');
+      $('.sticky-top').addClass('shadow-lg').css('top', '0px');
     } else {
-      $('.mobile-menu').removeClass('mobile-sticky-top');
+      $('.sticky-top').removeClass('shadow-lg').css('top', '-100px');
     }
   });
 
