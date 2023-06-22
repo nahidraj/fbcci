@@ -452,7 +452,10 @@
     height: 200px; }
 
   .upcomming-event-item .text .title {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .news-details .related-news .rn::before {
+    display: none; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .common-title h4 {
     font-size: 34px; }
@@ -647,7 +650,15 @@
     height: 209px; }
 
   .news-list-page .news-item {
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+
+  .news-details {
+    padding-top: 60px; }
+
+  .fixed-sidebar-news {
+    position: unset;
+    padding-left: 0;
+    margin-top: 40px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .mobile-header .mobile-social {
     width: auto; }
@@ -777,7 +788,23 @@
     height: 203px; }
 
   .news-list-page .news-item {
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+
+  .news-details {
+    padding-top: 60px; }
+
+  .fixed-sidebar-news {
+    position: unset;
+    padding-left: 0;
+    margin-top: 40px; }
+
+  .news-details .related-news .rn::before {
+    display: none; }
+
+  .news-details .text-main .img {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
     font-size: 15px; }
@@ -1007,7 +1034,27 @@
     padding-left: 24px; }
 
   .news-list-page .news-item {
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+
+  .news-details {
+    padding-top: 60px; }
+
+  .news-details .title h3 {
+    font-size: 22px;
+    line-height: 30px; }
+
+  .fixed-sidebar-news {
+    position: unset;
+    padding-left: 0;
+    margin-top: 40px; }
+
+  .news-details .related-news .rn::before {
+    display: none; }
+
+  .news-details .text-main .img {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1234,6 +1281,26 @@
     padding-left: 24px; }
 
   .news-list-page .news-item {
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+
+  .news-details {
+    padding-top: 60px; }
+
+  .news-details .title h3 {
+    font-size: 22px;
+    line-height: 30px; }
+
+  .fixed-sidebar-news {
+    position: unset;
+    padding-left: 0;
+    margin-top: 40px; }
+
+  .news-details .related-news .rn::before {
+    display: none; }
+
+  .news-details .text-main .img {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,262 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.news-details {
+  padding-top: 80px;
+}
+
+
+.heading {
+  border-bottom: 1px solid #e2e2e2;
+  position: relative;
+}
+
+.heading::after {
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background-color: #ffb631;
+}
+
+.heading h2 {
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  background-color: #ffb631;
+  display: inline-block;
+  color: #fff;
+  padding: 6px 10px;
+}
+
+.heading h2::before {
+  position: absolute;
+  top: 0;
+  right: -6px;
+  width: 14px;
+  height: 10px;
+  background-color: #ffb631;
+  content: "";
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.heading p {
+  font-weight: 500;
+}
+
+.search {
+  position: relative;
+
+  i {
+    color: #fff;
+  }
+}
+
+.search input {
+  width: 100%;
+  height: 50px;
+  background-color: #eeeeee;
+  border: none;
+  padding: 0 95px 0 20px;
+}
+
+.search button {
+  width: 70px;
+  height: 50px;
+  background-color: #ffb631;
+  border: none;
+  padding: 0 20px;
+  font-size: 20px;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.news-details-main .icon {
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.news-details-main .left {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+}
+
+.news-details-main .right {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.news-details-main button {
+  width: 6px;
+  height: 6px;
+  background-color: #ffb631;
+  border-radius: 50%;
+  border: none;
+  font-size: 0;
+  position: relative;
+}
+
+.news-details-main button::before {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+}
+
+.news-details-main ul {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.news-details-main ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.news-details .title {
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+
+.news-details .title h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.news-details .big-letter {
+  width: 70px;
+  display: inline-block;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 500;
+  color: $themeColor;
+}
+
+.news-details .text-main h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.news-details .text-main p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.middle-title {
+  h3 {
+    margin-top: 30px;
+  }
+}
+
+.news-details .text-main .img {
+  width: 320px;
+  margin-right: 24px;
+  margin-bottom: 20px;
+}
+
+.news-details .text-main .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+// .news-details .text-main .text {
+//   width: 56%;
+// }
+
+.news-details .related-news .rn {
+  position: relative;
+  @include font(24px, 700);
+}
+
+.news-details .related-news .rn::before {
+  width: 172px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background-color: #f1f1f1;
+  content: "";
+  display: none;
+}
+
+
+.news-item-list {
+  background-color: #f5f5f5;
+  position: relative;
+  min-height: 100px;
+  padding-left: 120px;
+  margin-bottom: 14px;
+}
+
+.news-item-list a {
+  color: #111;
+  transition: .2s;
+}
+
+.news-item-list a:hover {
+  color: #ffb631;
+}
+
+.news-item-list .img {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.news-item-list .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.news-item-list .text {
+  padding: 11px 16px;
+}
+
+
+.news-item-list ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #353535;
+}
+
+.news-item-list h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: $black;
+  line-height: 24px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  &:hover {
+    color: $themeColor;
+  }
+}
+
+.fixed-sidebar-news {
+  position: sticky;
+  top: 80px;
+  padding-left: 40px;
+}

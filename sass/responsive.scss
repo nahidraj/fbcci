@@ -654,6 +654,7 @@
   .former-president-item .image {
     height: 181px;
   }
+
   // former president page end
   .upcomming-event-page .upcomming-event-item .image {
     height: 200px;
@@ -661,6 +662,11 @@
 
   .upcomming-event-item .text .title {
     font-size: 18px;
+  }
+
+  // news details page start
+  .news-details .related-news .rn::before {
+    display: none;
   }
 }
 
@@ -918,6 +924,7 @@
   .gallery-item .image {
     height: 228px;
   }
+
   // former president page start
   .former-president-item .image {
     height: 209px;
@@ -927,6 +934,20 @@
   .news-list-page .news-item {
     margin-bottom: 24px;
   }
+
+  // news details page start
+  .news-details {
+    padding-top: 60px;
+  }
+
+  .fixed-sidebar-news {
+    position: unset;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+
+  // news details page end
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -1096,6 +1117,7 @@
   .gallery-item .image {
     height: 258px;
   }
+
   // former president page start
   .former-president-item .image {
     height: 239px;
@@ -1108,7 +1130,30 @@
 
   .news-list-page .news-item {
     margin-bottom: 24px;
-}
+  }
+
+  // news details page start
+  .news-details {
+    padding-top: 60px;
+  }
+
+  .fixed-sidebar-news {
+    position: unset;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .news-details .related-news .rn::before {
+    display: none;
+  }
+
+  .news-details .text-main .img {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  // news details page end
 }
 
 
@@ -1427,9 +1472,38 @@
   .upcomming-event-page .upcomming-event-item .text {
     padding-left: 24px;
   }
-.news-list-page .news-item {
-  margin-bottom: 24px;
-}
+
+  .news-list-page .news-item {
+    margin-bottom: 24px;
+  }
+
+  // news details page start
+  .news-details {
+    padding-top: 60px;
+  }
+
+  .news-details .title h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .fixed-sidebar-news {
+    position: unset;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .news-details .related-news .rn::before {
+    display: none;
+  }
+
+  .news-details .text-main .img {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  // news details page end
 }
 
 @media (max-width:575.98px) {
@@ -1746,4 +1820,32 @@
   .news-list-page .news-item {
     margin-bottom: 24px;
   }
+
+  // news details page start
+  .news-details {
+    padding-top: 60px;
+  }
+
+  .news-details .title h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .fixed-sidebar-news {
+    position: unset;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .news-details .related-news .rn::before {
+    display: none;
+  }
+
+  .news-details .text-main .img {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  // news details page end
 }
