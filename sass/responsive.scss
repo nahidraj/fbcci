@@ -654,14 +654,14 @@
   .former-president-item .image {
     height: 181px;
   }
-// former president page end
-.upcomming-event-page .upcomming-event-item .image {
-  height: 200px;
-}
+  // former president page end
+  .upcomming-event-page .upcomming-event-item .image {
+    height: 200px;
+  }
 
-.upcomming-event-item .text .title {
-  font-size: 18px;
-}
+  .upcomming-event-item .text .title {
+    font-size: 18px;
+  }
 }
 
 @media (min-width:992px) and (max-width:1199.98px) {
@@ -918,12 +918,15 @@
   .gallery-item .image {
     height: 228px;
   }
-// former president page start
-.former-president-item .image {
-  height: 209px;
-}
+  // former president page start
+  .former-president-item .image {
+    height: 209px;
+  }
 
-// former president page end
+  // former president page end
+  .news-list-page .news-item {
+    margin-bottom: 24px;
+  }
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -1093,14 +1096,18 @@
   .gallery-item .image {
     height: 258px;
   }
-// former president page start
-.former-president-item .image {
-  height: 239px;
-}
+  // former president page start
+  .former-president-item .image {
+    height: 239px;
+  }
 
-// former president page end
-.upcomming-event-page .upcomming-event-item .image {
-  height: 203px;
+  // former president page end
+  .upcomming-event-page .upcomming-event-item .image {
+    height: 203px;
+  }
+
+  .news-list-page .news-item {
+    margin-bottom: 24px;
 }
 }
 
@@ -1420,6 +1427,9 @@
   .upcomming-event-page .upcomming-event-item .text {
     padding-left: 24px;
   }
+.news-list-page .news-item {
+  margin-bottom: 24px;
+}
 }
 
 @media (max-width:575.98px) {
@@ -1733,4 +1743,7 @@
   }
 
   // former presedint page end
+  .news-list-page .news-item {
+    margin-bottom: 24px;
+  }
 }

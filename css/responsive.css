@@ -644,7 +644,10 @@
     height: 228px; }
 
   .former-president-item .image {
-    height: 209px; } }
+    height: 209px; }
+
+  .news-list-page .news-item {
+    margin-bottom: 24px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .mobile-header .mobile-social {
     width: auto; }
@@ -771,7 +774,10 @@
     height: 239px; }
 
   .upcomming-event-page .upcomming-event-item .image {
-    height: 203px; } }
+    height: 203px; }
+
+  .news-list-page .news-item {
+    margin-bottom: 24px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
     font-size: 15px; }
@@ -998,7 +1004,10 @@
     height: auto; }
 
   .upcomming-event-page .upcomming-event-item .text {
-    padding-left: 24px; } }
+    padding-left: 24px; }
+
+  .news-list-page .news-item {
+    margin-bottom: 24px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1222,6 +1231,9 @@
     height: auto; }
 
   .upcomming-event-page .upcomming-event-item .text {
-    padding-left: 24px; } }
+    padding-left: 24px; }
+
+  .news-list-page .news-item {
+    margin-bottom: 24px; } }
 
 /*# sourceMappingURL=responsive.css.map */
