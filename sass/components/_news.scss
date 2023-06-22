@@ -6,7 +6,7 @@
   margin-bottom: -70px;
   max-width: 1920px;
   margin: 0 auto;
-  .common-btn{
+.common-btn {
     margin-top: -40px;
   }
 }
@@ -91,7 +91,7 @@
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
-      max-width: 310px;
+      padding-right: 70px;
 
       &:hover {
         color: $themeColor;

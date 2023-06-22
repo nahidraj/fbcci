@@ -1,0 +1,20 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.upcomming-event-page {
+  padding-top: 80px;
+
+  .upcomming-event-item {
+    margin-bottom: 24px;
+  }
+
+  .upcomming-event-item .image {
+    height: 236px;
+  }
+
+  .upcomming-event-item .text {
+    padding: 24px;
+    padding-top: 24px;
+    padding-left: 0;
+  }
+}

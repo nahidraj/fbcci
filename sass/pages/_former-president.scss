@@ -1,0 +1,58 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.former-president {
+  padding-top: 80px;
+  background-color: #F4F4F4;
+  margin-bottom: -100px;
+  padding-bottom: 30px;
+}
+
+.former-president-item {
+  margin-bottom: 50px;
+  background-color: $white;
+  padding: 14px;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 24px;
+
+  .image {
+    border-radius: 8px;
+    height: 216px;
+
+    img {
+      border-radius: 8px;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .text {
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    h4 {
+      @include font(22px, 700);
+      margin-bottom: 8px;
+    }
+
+    ul {
+      li {
+        margin-bottom: 2px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
+
+    button {
+      background-color: $themeColor;
+      border-radius: 3px;
+      border: 0;
+      padding: 3px 20px;
+      margin-top: 10px;
+      color: $white;
+      @include font(14px, 600);
+    }
+  }
+}

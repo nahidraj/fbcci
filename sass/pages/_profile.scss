@@ -1,0 +1,141 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.profile-details {
+  background-color: #F4F4F4;
+  margin-bottom: -100px;
+  padding: 80px 0;
+}
+
+.profile-details .left-info {
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.2);
+  background-color: $white;
+}
+
+.profile-details .img {
+  height: 390px;
+}
+
+.profile-details .img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-details .person-text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: $themeColor;
+}
+
+.profile-details .person-text {
+  background-color: #f5f5f5;
+}
+
+.profile-details .person-text .dept {
+  font-size: 18px;
+  color: $black;
+}
+
+.profile-details .person-text .edu {
+  font-size: 18px;
+  color: $black;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.profile-details .text .title h4 {
+  font-size: 22px;
+  color: $black;
+  position: relative;
+}
+
+.profile-details .text .title h4::before {
+  width: 70px;
+  height: 3px;
+  background-color: #b8b8b8;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  content: "";
+  border-radius: 5px;
+}
+
+.profile-details .left-part {
+  width: 40%;
+}
+
+.profile-details .right-part {
+  width: 60%;
+}
+
+.profile-details ul li {
+  font-size: 15px;
+  font-weight: 500;
+  // color: rgba(152, 163, 179);
+  line-height: 36px;
+  position: relative;
+}
+
+.profile-details ul li span {
+  font-size: 16px;
+  color: #444;
+  font-weight: 600;
+}
+
+.profile-details ul li::before {
+  width: 7px;
+  height: 7px;
+  background-color: #dddddd;
+  position: absolute;
+  left: -24px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+}
+
+.profile-details .text {
+  background: #fff;
+  // box-shadow: 0 5px 20px rgba(221 221 221 / 69%);
+  padding: 24px;
+}
+
+.profile-details .text .title-bio h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: $black;
+}
+
+.profile-details .link a {
+  font-size: 14px;
+  color: #fff;
+  background-color: #5757f1;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 7px;
+  // box-shadow: 0 0 10px 0 rgba(82, 63, 105, .3);
+}
+
+.profile-details .link a:first-child {
+  background-color: #3b5998;
+}
+
+.profile-details .link a:nth-child(2) {
+  background-color: #1DA1F2;
+}
+
+.profile-details .link a:nth-child(3) {
+  background-color: #0e76a8;
+}
+
+.profile-details .link a:nth-child(4) {
+  background-color: #E4405F;
+}
+
+.profile-details .bio p {
+  line-height: 26px;
+  color: $black;
+}

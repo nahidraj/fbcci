@@ -149,14 +149,11 @@
     left: 50px; }
 
   .presedent-with-contact-form {
-    padding-top: 122px; }
+    padding-top: 155px; }
 
   .presedent-with-contact-form .presedent-bg .text {
     padding-top: 130px !important;
     padding-bottom: 107px !important; }
-
-  .news-item .news-text .title {
-    max-width: 245px; }
 
   .service-item .text h5 .title {
     font-size: 21px; }
@@ -385,8 +382,7 @@
     height: 311px; }
 
   .news-item .news-text .title {
-    font-size: 16px;
-    max-width: 192px; }
+    font-size: 16px; }
 
   .news-item .news-text .date p {
     width: 72px;
@@ -447,7 +443,16 @@
     font-size: 22px; }
 
   footer .footer-bg .footer-contact {
-    padding: 0 40px 0 40px; } }
+    padding: 0 40px 0 40px; }
+
+  .former-president-item .image {
+    height: 181px; }
+
+  .upcomming-event-page .upcomming-event-item .image {
+    height: 200px; }
+
+  .upcomming-event-item .text .title {
+    font-size: 18px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .common-title h4 {
     font-size: 34px; }
@@ -521,6 +526,9 @@
     bottom: -50px;
     left: 23px; }
 
+  .presedent-with-contact-form {
+    padding-top: 90px; }
+
   .presedent-with-contact-form .presedent-bg .text {
     padding-left: 0;
     padding-bottom: 40px; }
@@ -573,8 +581,7 @@
     top: 0; }
 
   .news-item .news-text .title {
-    font-size: 18px;
-    max-width: 218px; }
+    font-size: 18px; }
 
   .news-item {
     border-top-right-radius: 10px;
@@ -593,8 +600,7 @@
     padding: 6px 21px; }
 
   .news-item .news-text .title {
-    font-size: 16px;
-    max-width: 193px; }
+    font-size: 16px; }
 
   .counter-item {
     margin: 20px 0; }
@@ -635,7 +641,10 @@
     height: 458px; }
 
   .gallery-item .image {
-    height: 228px; } }
+    height: 228px; }
+
+  .former-president-item .image {
+    height: 209px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .mobile-header .mobile-social {
     width: auto; }
@@ -666,6 +675,9 @@
   .about .about-text {
     padding-left: 0;
     margin-top: 130px !important; }
+
+  .presedent-with-contact-form {
+    padding-top: 90px; }
 
   .presedent-with-contact-form .presedent-bg .text {
     padding-left: 0;
@@ -703,8 +715,7 @@
     top: 0; }
 
   .news-item .news-text .title {
-    font-size: 18px;
-    max-width: 218px; }
+    font-size: 18px; }
 
   .news-item {
     border-top-right-radius: 10px;
@@ -754,7 +765,13 @@
     margin-top: 24px; }
 
   .gallery-item .image {
-    height: 258px; } }
+    height: 258px; }
+
+  .former-president-item .image {
+    height: 239px; }
+
+  .upcomming-event-page .upcomming-event-item .image {
+    height: 203px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
     font-size: 15px; }
@@ -818,6 +835,9 @@
   .about .about-text .other-info .info-box {
     height: auto; }
 
+  .presedent-with-contact-form {
+    padding-top: 90px; }
+
   .presedent-with-contact-form .presedent-bg .text {
     padding-top: 31px;
     padding-bottom: 0;
@@ -872,8 +892,7 @@
     top: 0; }
 
   .news-item .news-text .title {
-    font-size: 20px;
-    max-width: 408px; }
+    font-size: 20px; }
 
   .news-item {
     border-top-right-radius: 10px;
@@ -970,7 +989,16 @@
     margin-bottom: 30px; }
 
   footer {
-    padding-top: 60px; } }
+    padding-top: 60px; }
+
+  .former-president-item .image {
+    height: 379px; }
+
+  .upcomming-event-page .upcomming-event-item .image {
+    height: auto; }
+
+  .upcomming-event-page .upcomming-event-item .text {
+    padding-left: 24px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -999,7 +1027,7 @@
 
   .about .about-text {
     padding-left: 0;
-    padding-top: 200px; }
+    padding-top: 230px; }
 
   .about .about-info .year-box .year h5 {
     width: 120px;
@@ -1033,6 +1061,9 @@
 
   .about .about-text .other-info .info-box {
     height: auto; }
+
+  .presedent-with-contact-form {
+    padding-top: 90px; }
 
   .presedent-with-contact-form .presedent-bg .text {
     padding-top: 31px;
@@ -1085,8 +1116,7 @@
     top: 0; }
 
   .news-item .news-text .title {
-    font-size: 16px;
-    max-width: 222px; }
+    font-size: 16px; }
 
   .news-item {
     border-top-right-radius: 10px;
@@ -1183,6 +1213,15 @@
     margin-bottom: 30px; }
 
   footer {
-    padding-top: 60px; } }
+    padding-top: 60px; }
+
+  .former-president-item .image {
+    height: auto; }
+
+  .upcomming-event-page .upcomming-event-item .image {
+    height: auto; }
+
+  .upcomming-event-page .upcomming-event-item .text {
+    padding-left: 24px; } }
 
 /*# sourceMappingURL=responsive.css.map */

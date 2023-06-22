@@ -213,7 +213,7 @@
 
   // president part start
   .presedent-with-contact-form {
-    padding-top: 122px;
+    padding-top: 155px;
   }
 
   .presedent-with-contact-form .presedent-bg .text {
@@ -222,12 +222,7 @@
   }
 
   // president part end
-  // news part start
-  .news-item .news-text .title {
-    max-width: 245px;
-  }
 
-  // news part end
   // service part start
   .service-item .text h5 .title {
     font-size: 21px;
@@ -565,7 +560,6 @@
 
   .news-item .news-text .title {
     font-size: 16px;
-    max-width: 192px;
   }
 
   .news-item .news-text .date p {
@@ -656,7 +650,20 @@
   }
 
   // footer part end
+  // former president page start
+  .former-president-item .image {
+    height: 181px;
+  }
+// former president page end
+.upcomming-event-page .upcomming-event-item .image {
+  height: 200px;
 }
+
+.upcomming-event-item .text .title {
+  font-size: 18px;
+}
+}
+
 @media (min-width:992px) and (max-width:1199.98px) {
   .common-title h4 {
     font-size: 34px;
@@ -755,6 +762,10 @@
     left: 23px;
   }
 
+  .presedent-with-contact-form {
+    padding-top: 90px;
+  }
+
   .presedent-with-contact-form .presedent-bg .text {
     padding-left: 0;
     padding-bottom: 40px;
@@ -822,7 +833,6 @@
 
   .news-item .news-text .title {
     font-size: 18px;
-    max-width: 218px;
   }
 
   .news-item {
@@ -847,7 +857,6 @@
 
   .news-item .news-text .title {
     font-size: 16px;
-    max-width: 193px;
   }
 
   // news part end
@@ -909,6 +918,12 @@
   .gallery-item .image {
     height: 228px;
   }
+// former president page start
+.former-president-item .image {
+  height: 209px;
+}
+
+// former president page end
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -952,6 +967,10 @@
   .about .about-text {
     padding-left: 0;
     margin-top: 130px !important;
+  }
+
+  .presedent-with-contact-form {
+    padding-top: 90px;
   }
 
   .presedent-with-contact-form .presedent-bg .text {
@@ -1002,7 +1021,6 @@
 
   .news-item .news-text .title {
     font-size: 18px;
-    max-width: 218px;
   }
 
   .news-item {
@@ -1075,6 +1093,15 @@
   .gallery-item .image {
     height: 258px;
   }
+// former president page start
+.former-president-item .image {
+  height: 239px;
+}
+
+// former president page end
+.upcomming-event-page .upcomming-event-item .image {
+  height: 203px;
+}
 }
 
 
@@ -1167,6 +1194,10 @@
   // about part end
 
   // president part start
+  .presedent-with-contact-form {
+    padding-top: 90px;
+  }
+
   .presedent-with-contact-form .presedent-bg .text {
     padding-top: 31px;
     padding-bottom: 0;
@@ -1242,7 +1273,6 @@
 
   .news-item .news-text .title {
     font-size: 20px;
-    max-width: 408px;
   }
 
   .news-item {
@@ -1377,6 +1407,19 @@
   }
 
   // contact part end
+  // former president page start
+  .former-president-item .image {
+    height: 379px;
+  }
+
+  // former president page end
+  .upcomming-event-page .upcomming-event-item .image {
+    height: auto;
+  }
+
+  .upcomming-event-page .upcomming-event-item .text {
+    padding-left: 24px;
+  }
 }
 
 @media (max-width:575.98px) {
@@ -1419,7 +1462,7 @@
 
   .about .about-text {
     padding-left: 0;
-    padding-top: 200px;
+    padding-top: 230px;
   }
 
   .about .about-info .year-box .year h5 {
@@ -1467,6 +1510,10 @@
   // about part end
 
   // president part start
+  .presedent-with-contact-form {
+    padding-top: 90px;
+  }
+
   .presedent-with-contact-form .presedent-bg .text {
     padding-top: 31px;
     padding-bottom: 0;
@@ -1538,7 +1585,6 @@
 
   .news-item .news-text .title {
     font-size: 16px;
-    max-width: 222px;
   }
 
   .news-item {
@@ -1673,4 +1719,18 @@
   }
 
   // contact part end
+  // former presedint page start
+  .former-president-item .image {
+    height: auto;
+  }
+
+  .upcomming-event-page .upcomming-event-item .image {
+    height: auto;
+  }
+
+  .upcomming-event-page .upcomming-event-item .text {
+    padding-left: 24px;
+  }
+
+  // former presedint page end
 }

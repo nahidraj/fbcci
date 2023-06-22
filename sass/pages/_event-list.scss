@@ -1,0 +1,10 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.event-list-page {
+  padding-top: 80px;
+
+  .event-item {
+    margin-bottom: 24px;
+  }
+}
