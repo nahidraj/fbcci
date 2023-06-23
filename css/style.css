@@ -2468,4 +2468,13 @@ footer {
     visibility: visible;
     opacity: 1; }
 
+.video-gallery-view {
+  padding-top: 70px; }
+  .video-gallery-view .big-video {
+    width: 100%;
+    height: 500px; }
+    .video-gallery-view .big-video iframe {
+      width: 100%;
+      height: 100%; }
+
 /*# sourceMappingURL=style.css.map */
