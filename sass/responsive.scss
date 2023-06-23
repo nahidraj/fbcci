@@ -2142,4 +2142,17 @@
   }
 
   // event details page end
+  .common-search .input-groups {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .common-search .button-groups button {
+    width: 100%;
+  }
+
+  .common-search .search-field {
+    max-width: unset;
+  }
 }

@@ -1516,6 +1516,17 @@
     font-size: 16px; }
 
   .event-details-page .text h1 {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .common-search .input-groups {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 16px; }
+
+  .common-search .button-groups button {
+    width: 100%; }
+
+  .common-search .search-field {
+    max-width: unset; } }
 
 /*# sourceMappingURL=responsive.css.map */
