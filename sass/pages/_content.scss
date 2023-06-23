@@ -1,0 +1,77 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.content-page {
+  padding-top: 70px;
+
+  .content-main {
+    background-color: $white;
+    box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+
+    h1 {
+      @include font(32px, 700);
+      margin-bottom: 40px;
+      position: relative;
+      padding: 15px 0;
+      z-index: 1;
+      padding-left: 24px;
+
+
+      &::before {
+        width: 340px;
+        height: 100%;
+        background-color: #f1f1f1;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        content: "";
+        z-index: -1;
+      }
+    }
+
+    .content-box {
+      .small-image {
+        float: left;
+        margin-right: 24px;
+
+        img {
+          border-radius: 10px;
+        }
+      }
+
+      .text {
+        text-align: justify;
+
+        p+p {
+          margin-top: 24px;
+        }
+      }
+    }
+  }
+
+  .mid-text {
+    padding: 28px 80px 28px 100px;
+    background-color: #F2F3F5;
+    border-bottom: 3px solid #1B9CE3;
+    position: relative;
+  }
+
+  .mid-text h4 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #666666;
+    line-height: 40px;
+  }
+
+  .mid-text i {
+    color: #1B9CE3;
+    font-size: 30px;
+    padding-right: 20px;
+    position: absolute;
+    top: 26px;
+    left: 45px;
+  }
+
+}
