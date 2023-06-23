@@ -2743,20 +2743,20 @@ footer {
 
 .event-details-page .text ul {
   margin-top: 30px;
-  background-color: #f1f1f1;
+  background-color: #171C49;
   padding: 24px; }
 
 .event-details-page .text ul li {
   margin-right: 22px; }
 
 .event-details-page .text ul li:first-child {
-  color: #0786b8; }
+  color: #4ecdff; }
 
 .event-details-page .text ul li:nth-child(2) {
-  color: #b15f36; }
+  color: #ffab81; }
 
 .event-details-page .text ul li:last-child {
-  color: #57830b; }
+  color: #adec40; }
 
 .event-details-page .text h3 {
   font-size: 24px;
