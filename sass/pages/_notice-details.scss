@@ -1,0 +1,78 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.notice-details {
+  padding-top: 70px;
+}
+
+.notice-details-main {
+  width: 100%;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, .1));
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+
+.notice-details-main h3 {
+  font-size: 24px;
+  font-weight: 700;
+  background: $themeColor;
+  padding: 14px 101px;
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  right: -77px;
+  transform: rotate(45deg);
+  border-top-right-radius: 60px;
+}
+
+.notice-details-main .text {
+  max-width: 547px;
+}
+
+.notice-details-main .text h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: $black;
+}
+
+.notice-details-main .text h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.notice-details-main .text span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.notice-details-main .text-details p {
+  text-align: justify;
+  margin-top: 24px
+}
+
+.notice-details-main .text-details h4 {
+  @include font(22px, 600);
+}
+
+.notice-details-main .director p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.notice-details-main .director p {
+  @include font(18px, 600);
+  color: $black;
+}
+
+.notice-details-main .director span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  border-bottom: 1px dotted #111;
+}
