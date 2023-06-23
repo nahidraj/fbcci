@@ -829,7 +829,12 @@
     height: 221px; }
 
   .publication-main .publication-item .single-item {
-    min-height: 297px; } }
+    min-height: 297px; }
+
+  .sticky {
+    position: unset;
+    top: 70px;
+    margin-top: 30px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
     font-size: 15px; }
@@ -1125,7 +1130,22 @@
     right: -97px; }
 
   .notice-details-main .text {
-    max-width: 446px; } }
+    max-width: 446px; }
+
+  .event-details-page .text h1 {
+    font-size: 24px; }
+
+  .event-details-page .text ul {
+    padding: 24px;
+    display: inherit !important; }
+
+  .event-details-page .text ul li {
+    line-height: 28px; }
+
+  .sticky {
+    position: unset;
+    top: 70px;
+    margin-top: 30px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1475,6 +1495,27 @@
 
   .notice-list .notice-item .pdf i {
     margin-left: 0;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .event-details-page .text h1 {
+    font-size: 24px; }
+
+  .event-details-page .text ul {
+    padding: 24px;
+    display: inherit !important; }
+
+  .event-details-page .text ul li {
+    line-height: 28px; }
+
+  .sticky {
+    position: unset;
+    top: 70px;
+    margin-top: 30px; }
+
+  .right-part .news-text h4 {
+    font-size: 16px; }
+
+  .event-details-page .text h1 {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=responsive.css.map */

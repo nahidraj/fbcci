@@ -1195,6 +1195,11 @@
   }
 
   // publication page end
+  .sticky {
+    position: unset;
+    top: 70px;
+    margin-top: 30px;
+  }
 }
 
 
@@ -1608,6 +1613,27 @@
   }
 
   // notice details page end
+  // event details page start
+  .event-details-page .text h1 {
+    font-size: 24px;
+  }
+
+  .event-details-page .text ul {
+    padding: 24px;
+    display: inherit !important;
+  }
+
+  .event-details-page .text ul li {
+    line-height: 28px;
+  }
+
+  .sticky {
+    position: unset;
+    top: 70px;
+    margin-top: 30px;
+  }
+
+  // event details page end
 }
 
 @media (max-width:575.98px) {
@@ -2087,4 +2113,33 @@
   }
 
   // notice list page end
+  // event details page start
+  .event-details-page .text h1 {
+    font-size: 24px;
+  }
+
+  .event-details-page .text ul {
+    padding: 24px;
+    display: inherit !important;
+  }
+
+  .event-details-page .text ul li {
+    line-height: 28px;
+  }
+
+  .sticky {
+    position: unset;
+    top: 70px;
+    margin-top: 30px;
+  }
+
+  .right-part .news-text h4 {
+    font-size: 16px;
+  }
+
+  .event-details-page .text h1 {
+    font-size: 18px;
+  }
+
+  // event details page end
 }
