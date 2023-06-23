@@ -1,0 +1,42 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.image-gallery-view {
+  padding-top: 80px;
+
+  .gallery-item {
+    .icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all linear .2s;
+      opacity: 0;
+      visibility: hidden;
+
+      a {
+        width: 42px;
+        height: 42px;
+        background-color: $white;
+        text-align: center;
+        line-height: 42px;
+        border-radius: 50%;
+        color: $themeColor;
+        cursor: pointer;
+        transition: all linear .2s;
+
+        &:hover {
+          background-color: $themeColor;
+          color: $white;
+        }
+      }
+    }
+
+    &:hover {
+      .icon {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+}

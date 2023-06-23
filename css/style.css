@@ -2441,4 +2441,31 @@ footer {
   .publication-main .publication-item:last-child {
     margin-bottom: 0; }
 
+.image-gallery-view {
+  padding-top: 80px; }
+  .image-gallery-view .gallery-item .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all linear .2s;
+    opacity: 0;
+    visibility: hidden; }
+    .image-gallery-view .gallery-item .icon a {
+      width: 42px;
+      height: 42px;
+      background-color: #ffffff;
+      text-align: center;
+      line-height: 42px;
+      border-radius: 50%;
+      color: #F4462F;
+      cursor: pointer;
+      transition: all linear .2s; }
+      .image-gallery-view .gallery-item .icon a:hover {
+        background-color: #F4462F;
+        color: #ffffff; }
+  .image-gallery-view .gallery-item:hover .icon {
+    visibility: visible;
+    opacity: 1; }
+
 /*# sourceMappingURL=style.css.map */
