@@ -1111,7 +1111,10 @@
     height: 252px; }
 
   .publication-main .publication-item .single-item {
-    min-height: 325px; } }
+    min-height: 325px; }
+
+  .video-gallery-view .big-video {
+    height: 300px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1390,6 +1393,9 @@
     height: auto; }
 
   .publication-main .publication-item .single-item {
-    min-height: auto; } }
+    min-height: auto; }
+
+  .video-gallery-view .big-video {
+    height: 300px; } }
 
 /*# sourceMappingURL=responsive.css.map */
