@@ -1437,6 +1437,44 @@
   .notice-details-main h3 {
     font-size: 18px;
     top: -26px;
-    left: 0; } }
+    left: 0; }
+
+  .notice-list .notice-info {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .notice-list .notice-date {
+    position: unset;
+    transform: unset; }
+
+  .notice-list .notice-info h4 {
+    font-size: 16px; }
+
+  .notice-list .notice-date p {
+    width: auto;
+    padding: 0;
+    background-color: transparent;
+    color: #222;
+    font-size: 16px; }
+
+  .notice-list .notice-date p::before {
+    display: none; }
+
+  .notice-list .notice-date .year {
+    display: inline-block; }
+
+  .notice-list .notice-date p {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px; }
+
+  .notice-list .notice-date .month {
+    font-size: unset;
+    font-weight: unset; }
+
+  .notice-list .notice-item .pdf i {
+    margin-left: 0;
+    margin-top: 10px; } }
 
 /*# sourceMappingURL=responsive.css.map */
