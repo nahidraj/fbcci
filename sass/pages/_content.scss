@@ -19,9 +19,9 @@
 
 
       &::before {
-        width: 340px;
+        width: 360px;
         height: 100%;
-        background-color: #f1f1f1;
+        background-image: linear-gradient(to right, rgba(244, 70, 47, 0.4), #fff);
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -41,20 +41,20 @@
         }
       }
 
-      .text {
-        text-align: justify;
-
-        p+p {
-          margin-top: 24px;
-        }
+      p+p {
+        margin-top: 24px;
       }
+    }
+
+    p {
+      text-align: justify;
     }
   }
 
   .mid-text {
     padding: 28px 80px 28px 100px;
     background-color: #F2F3F5;
-    border-bottom: 3px solid #1B9CE3;
+    border-bottom: 3px solid $themeColor;
     position: relative;
   }
 
@@ -66,7 +66,7 @@
   }
 
   .mid-text i {
-    color: #1B9CE3;
+    color: $themeColor;
     font-size: 30px;
     padding-right: 20px;
     position: absolute;

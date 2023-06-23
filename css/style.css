@@ -2348,9 +2348,9 @@ footer {
       z-index: 1;
       padding-left: 24px; }
       .content-page .content-main h1::before {
-        width: 340px;
+        width: 360px;
         height: 100%;
-        background-color: #f1f1f1;
+        background-image: linear-gradient(to right, rgba(244, 70, 47, 0.4), #fff);
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -2362,14 +2362,14 @@ footer {
       margin-right: 24px; }
       .content-page .content-main .content-box .small-image img {
         border-radius: 10px; }
-    .content-page .content-main .content-box .text {
+    .content-page .content-main .content-box p + p {
+      margin-top: 24px; }
+    .content-page .content-main p {
       text-align: justify; }
-      .content-page .content-main .content-box .text p + p {
-        margin-top: 24px; }
   .content-page .mid-text {
     padding: 28px 80px 28px 100px;
     background-color: #F2F3F5;
-    border-bottom: 3px solid #1B9CE3;
+    border-bottom: 3px solid #F4462F;
     position: relative; }
   .content-page .mid-text h4 {
     font-size: 28px;
@@ -2377,7 +2377,7 @@ footer {
     color: #666666;
     line-height: 40px; }
   .content-page .mid-text i {
-    color: #1B9CE3;
+    color: #F4462F;
     font-size: 30px;
     padding-right: 20px;
     position: absolute;
