@@ -1502,6 +1502,20 @@ nav {
   .upcomming-event-item:hover .image::before {
     transform: scale(1); }
 
+.no-event-image {
+  height: 580px;
+  background-color: #fff;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1); }
+  .no-event-image .image {
+    height: 480px; }
+    .no-event-image .image img {
+      height: 100%;
+      object-fit: contain;
+      object-position: center; }
+  .no-event-image .text h4 {
+    font-size: 26px;
+    font-weight: 700; }
+
 .pignose-calendar .pignose-calendar-header .pignose-calendar-week.pignose-calendar-week-sat,
 .pignose-calendar .pignose-calendar-header .pignose-calendar-week.pignose-calendar-week-sun {
   color: #000; }

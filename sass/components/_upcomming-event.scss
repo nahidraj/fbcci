@@ -136,6 +136,29 @@
   }
 }
 
+.no-event-image {
+  height: 580px;
+  background-color: #fff;
+
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+
+  .image {
+    height: 480px;
+
+    img {
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  .text {
+    h4 {
+      @include font(26px, 700);
+    }
+  }
+}
+
 .pignose-calendar .pignose-calendar-header .pignose-calendar-week.pignose-calendar-week-sat,
 .pignose-calendar .pignose-calendar-header .pignose-calendar-week.pignose-calendar-week-sun {
   color: #000;
