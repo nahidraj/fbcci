@@ -1,6 +1,10 @@
 @import "../variable/variable";
 @import "../mixin/font";
 
+.notice-list {
+  margin-bottom: -66px;
+}
+
 .notice-list .notice-item {
   width: 100%;
   border-radius: 5px;

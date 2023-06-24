@@ -2,7 +2,8 @@
 @import "../mixin/font";
 
 .content-page {
-  padding-top: 70px;
+  padding-top: 40px;
+  margin-bottom: -40px;
 
   .content-main {
     background-color: $white;
