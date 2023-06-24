@@ -1,0 +1,26 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.no-data-found {
+  margin-bottom: -40px;
+
+  .text {
+    h4 {
+      @include font(28px, 700);
+      color: $black;
+      margin-bottom: 20px;
+    }
+
+    a {
+      @include font(14px, 600);
+      background-color: $themeColor;
+      color: $white;
+      padding: 14px 30px;
+      text-transform: uppercase;
+      border-radius: 4px;
+      &:hover{
+        background-color: #bb2f1d;
+      }
+    }
+  }
+}

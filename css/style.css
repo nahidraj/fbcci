@@ -2975,4 +2975,22 @@ footer {
       font-weight: 600;
       padding: 14px 35px; }
 
+.no-data-found {
+  margin-bottom: -40px; }
+  .no-data-found .text h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #171C49;
+    margin-bottom: 20px; }
+  .no-data-found .text a {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #F4462F;
+    color: #ffffff;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    border-radius: 4px; }
+    .no-data-found .text a:hover {
+      background-color: #bb2f1d; }
+
 /*# sourceMappingURL=style.css.map */

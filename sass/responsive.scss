@@ -2210,5 +2210,17 @@
     padding: 14px 20px;
   }
 
+  .advisor .advisor-type-button .nav-pills::before {
+    display: none;
+  }
+
+  .advisor .advisor-type-button .nav-pills::after {
+    display: none;
+  }
+
+  .advisor .advisor-type-button {
+    margin-bottom: 30px;
+  }
+
   // advisor page end
 }

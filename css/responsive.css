@@ -1568,6 +1568,15 @@
 
   .advisor .advisor-type-button button {
     font-size: 14px;
-    padding: 14px 20px; } }
+    padding: 14px 20px; }
+
+  .advisor .advisor-type-button .nav-pills::before {
+    display: none; }
+
+  .advisor .advisor-type-button .nav-pills::after {
+    display: none; }
+
+  .advisor .advisor-type-button {
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=responsive.css.map */
