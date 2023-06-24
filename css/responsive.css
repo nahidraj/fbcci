@@ -1145,7 +1145,18 @@
   .sticky {
     position: unset;
     top: 70px;
-    margin-top: 30px; } }
+    margin-top: 30px; }
+
+  .common-search .input-groups {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 16px; }
+
+  .common-search .button-groups button {
+    width: 100%; }
+
+  .common-search .search-field {
+    max-width: unset; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }

@@ -6,17 +6,22 @@
   margin-bottom: 40px;
 
   .search-field {
-    background-color: #fff;
+    background-color: $black;
     padding: 20px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
-    max-width: 578px;
     margin-left: auto;
   }
 
   .input-groups {
     width: 210px;
     margin-right: 16px;
+
+    p {
+      margin-bottom: 5px;
+      @include font(15px, 600);
+      color: $white;
+    }
 
     input {
       width: 100%;
@@ -28,6 +33,8 @@
   }
 
   .button-groups {
+    align-self: flex-end;
+
     button {
       background-color: $themeColor;
       color: $white;

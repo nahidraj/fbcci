@@ -2100,30 +2100,36 @@ footer {
   width: 100%;
   margin-bottom: 40px; }
   .common-search .search-field {
-    background-color: #fff;
+    background-color: #171C49;
     padding: 20px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
-    max-width: 578px;
     margin-left: auto; }
   .common-search .input-groups {
     width: 210px;
     margin-right: 16px; }
+    .common-search .input-groups p {
+      margin-bottom: 5px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff; }
     .common-search .input-groups input {
       width: 100%;
       height: 45px;
       border: 1px solid rgba(0, 0, 0, 0.5);
       border-radius: 3px;
       padding: 0 20px; }
-  .common-search .button-groups button {
-    background-color: #F4462F;
-    color: #ffffff;
-    height: 45px;
-    padding: 10px 20px;
-    border-radius: 3px;
-    border: 0; }
-    .common-search .button-groups button:hover {
-      background-color: #ac2715; }
+  .common-search .button-groups {
+    align-self: flex-end; }
+    .common-search .button-groups button {
+      background-color: #F4462F;
+      color: #ffffff;
+      height: 45px;
+      padding: 10px 20px;
+      border-radius: 3px;
+      border: 0; }
+      .common-search .button-groups button:hover {
+        background-color: #ac2715; }
 
 .news-list-page {
   padding-top: 80px;
@@ -2280,7 +2286,7 @@ footer {
   margin-right: 20px; }
 
 .news-details .title {
-  margin-top: 40px;
+  margin-top: 0;
   margin-bottom: 14px; }
 
 .news-details .title h3 {
@@ -2842,5 +2848,8 @@ footer {
 .sticky {
   position: sticky;
   top: 70px; }
+
+.search-list {
+  padding-top: 70px; }
 
 /*# sourceMappingURL=style.css.map */
