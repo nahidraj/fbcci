@@ -7,10 +7,34 @@
   padding-top: 40px;
   background-color: #F4F4F4;
   margin-bottom: -100px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 
   .advisor-type-button {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+
+    .nav-pills {
+      position: relative;
+
+      &::before {
+        width: 200px;
+        height: 2px;
+        background-color: $themeColor;
+        position: absolute;
+        top: 22px;
+        left: -240px;
+        content: "";
+      }
+
+      &::after {
+        width: 200px;
+        height: 2px;
+        background-color: $themeColor;
+        position: absolute;
+        top: 22px;
+        left: calc(100% - -40px);
+        content: "";
+      }
+    }
 
     .nav-pills .nav-link.active {
       background: $themeColor !important;

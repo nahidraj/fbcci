@@ -2943,9 +2943,27 @@ footer {
   padding-top: 40px;
   background-color: #F4F4F4;
   margin-bottom: -100px;
-  padding-bottom: 70px; }
+  padding-bottom: 40px; }
   .advisor .advisor-type-button {
-    margin-bottom: 30px; }
+    margin-bottom: 50px; }
+    .advisor .advisor-type-button .nav-pills {
+      position: relative; }
+      .advisor .advisor-type-button .nav-pills::before {
+        width: 200px;
+        height: 2px;
+        background-color: #F4462F;
+        position: absolute;
+        top: 22px;
+        left: -240px;
+        content: ""; }
+      .advisor .advisor-type-button .nav-pills::after {
+        width: 200px;
+        height: 2px;
+        background-color: #F4462F;
+        position: absolute;
+        top: 22px;
+        left: calc(100% - -40px);
+        content: ""; }
     .advisor .advisor-type-button .nav-pills .nav-link.active {
       background: #F4462F !important; }
     .advisor .advisor-type-button button {

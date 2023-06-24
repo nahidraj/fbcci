@@ -1564,6 +1564,10 @@
 
   .search-list .search-top-bar p {
     font-size: 15px;
-    padding: 5px 30px; } }
+    padding: 5px 30px; }
+
+  .advisor .advisor-type-button button {
+    font-size: 14px;
+    padding: 14px 20px; } }
 
 /*# sourceMappingURL=responsive.css.map */
