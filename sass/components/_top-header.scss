@@ -8,7 +8,7 @@
 
   .title {
     p {
-      @include font(16px, 600);
+      @include font(15px, 500);
       color: $white;
     }
   }

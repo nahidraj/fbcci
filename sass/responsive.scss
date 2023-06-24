@@ -679,6 +679,9 @@
   }
 
   // publication page end
+  .search-list .profile-search-item .text h4 {
+    font-size: 18px;
+  }
 }
 
 @media (min-width:992px) and (max-width:1199.98px) {
@@ -969,6 +972,22 @@
   }
 
   // publication page end
+  .search-list .profile-search-item .image {
+    width: 95px;
+    height: 95px;
+  }
+
+  .search-list .profile-search-item .text {
+    padding-left: 108px;
+  }
+
+  .search-list .profile-search-item .text h4 {
+    font-size: 16px;
+  }
+
+  .search-list .profile-search-item {
+    min-height: 133px;
+  }
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -1200,6 +1219,10 @@
     position: unset;
     top: 70px;
     margin-top: 30px;
+  }
+
+  .search-list .profile-search-item .text h4 {
+    font-size: 16px;
   }
 }
 
@@ -2170,5 +2193,14 @@
 
   .common-search .search-field {
     max-width: unset;
+  }
+
+  .search-list .profile-search-item .text h4 {
+    font-size: 16px;
+  }
+
+  .search-list .search-top-bar p {
+    font-size: 15px;
+    padding: 5px 30px;
   }
 }
