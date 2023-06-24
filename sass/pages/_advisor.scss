@@ -1,3 +1,28 @@
 @import "../variable/variable";
 @import "../mixin/font";
 
+.advisor {
+  padding-top: 40px;
+  margin-bottom: -64px;
+  padding-top: 40px;
+  background-color: #F4F4F4;
+  margin-bottom: -100px;
+  padding-bottom: 70px;
+
+  .advisor-type-button {
+    margin-bottom: 30px;
+
+    .nav-pills .nav-link.active {
+      background: $themeColor !important;
+    }
+
+    button {
+      background: $black !important;
+      border-radius: 0 !important;
+      color: #fff;
+      text-transform: uppercase;
+      @include font(15px, 600);
+      padding: 14px 35px;
+    }
+  }
+}
