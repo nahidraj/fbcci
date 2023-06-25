@@ -1951,9 +1951,14 @@ footer {
     .former-secretary-item .text h4 {
       font-size: 22px;
       font-weight: 700;
-      margin-bottom: 8px; }
+      margin-bottom: 8px;
+      color: #171C49;
+      transition: all linear .2s; }
     .former-secretary-item .text span {
-      margin-bottom: 2px; }
+      margin-bottom: 2px;
+      color: #171C49; }
+  .former-secretary-item:hover h4 {
+    color: #F4462F; }
 
 .former-president {
   padding-top: 40px;
@@ -1982,11 +1987,14 @@ footer {
     .former-president-item .text h4 {
       font-size: 22px;
       font-weight: 700;
-      margin-bottom: 8px; }
+      margin-bottom: 8px;
+      color: #171C49;
+      transition: all linear .2s; }
     .former-president-item .text ul li {
       margin-bottom: 2px;
       font-size: 15px;
-      font-weight: 600; }
+      font-weight: 600;
+      color: #171C49; }
     .former-president-item .text button {
       background-color: #F4462F;
       border-radius: 3px;
@@ -1996,6 +2004,8 @@ footer {
       color: #ffffff;
       font-size: 14px;
       font-weight: 600; }
+  .former-president-item:hover h4 {
+    color: #F4462F; }
 
 .profile-details {
   background-color: #F4F4F4;
