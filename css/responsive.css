@@ -1175,7 +1175,22 @@
     width: 100%; }
 
   .common-search .search-field {
-    max-width: unset; } }
+    max-width: unset; }
+
+  .member-top-search .title h2 {
+    font-size: 22px; }
+
+  .member-top-search .sort-by {
+    margin-bottom: 14px; }
+
+  .member-top-search .text-title {
+    margin-bottom: 14px; }
+
+  .member-top-search .search-top .search-btn {
+    width: 100%; }
+
+  .advance-search .search-btn {
+    width: 100% !important; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1589,6 +1604,9 @@
     margin-bottom: 14px; }
 
   .member-top-search .search-top .search-btn {
-    width: 100%; } }
+    width: 100%; }
+
+  .advance-search .search-btn {
+    width: 100% !important; } }
 
 /*# sourceMappingURL=responsive.css.map */

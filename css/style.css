@@ -3172,8 +3172,8 @@ footer {
   border-bottom: none; }
 
 .member-list-body .member-list-item .img {
-  width: 180px;
-  height: 140px;
+  width: 147px;
+  height: 122px;
   border: 1px solid #ddd;
   background-color: #ffffff;
   position: relative;
@@ -3181,6 +3181,13 @@ footer {
 
 .member-list-body .item-big-info {
   padding-right: 14px; }
+
+.member-list-body .item-big-info ul li {
+  line-height: 30px; }
+
+.member-list-body .item-big-info ul li i {
+  color: #F4462F;
+  padding-right: 5px; }
 
 .member-list-body .member-list-item .img img {
   position: absolute;

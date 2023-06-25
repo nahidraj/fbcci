@@ -1672,6 +1672,28 @@
   .common-search .search-field {
     max-width: unset;
   }
+// member list page start
+.member-top-search .title h2 {
+  font-size: 22px;
+}
+
+.member-top-search .sort-by {
+  margin-bottom: 14px;
+}
+
+.member-top-search .text-title {
+  margin-bottom: 14px;
+}
+
+.member-top-search .search-top .search-btn {
+  width: 100%;
+}
+
+.advance-search .search-btn {
+  width: 100% !important;
+}
+
+// member list page end
 }
 
 @media (max-width:575.98px) {
@@ -2238,6 +2260,10 @@
 
   .member-top-search .search-top .search-btn {
     width: 100%;
+  }
+
+  .advance-search .search-btn {
+    width: 100% !important;
   }
 
   // member list page end
