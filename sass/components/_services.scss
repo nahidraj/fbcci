@@ -116,6 +116,11 @@
 
       p {
         transition: all linear .2s;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        text-align: justify;
       }
 
       .read-more {

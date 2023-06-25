@@ -1577,6 +1577,18 @@
     display: none; }
 
   .advisor .advisor-type-button {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .member-top-search .title h2 {
+    font-size: 22px; }
+
+  .member-top-search .sort-by {
+    margin-bottom: 14px; }
+
+  .member-top-search .text-title {
+    margin-bottom: 14px; }
+
+  .member-top-search .search-top .search-btn {
+    width: 100%; } }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -126,13 +126,19 @@
       margin-bottom: 30px;
 
       p {
-        @include font(18px, 400)
+        @include font(18px, 400);
+        text-align: justify;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
       }
     }
 
     .other-info {
       .info-box {
         height: 90px;
+        margin-top: 7px;
 
         .icon {
           width: 75px;
@@ -166,6 +172,14 @@
       }
 
       .text {
+        p {
+          text-align: justify;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+
         h4 {
           @include font(26px, 600);
           margin-bottom: 10px;

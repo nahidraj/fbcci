@@ -32,6 +32,12 @@
 
       p {
         margin-bottom: 60px;
+        text-align: justify;
+        line-height: 26px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
       }
 
       .read-more {
