@@ -652,7 +652,7 @@
   // footer part end
   // former president page start
   .former-president-item .image {
-    height: 181px;
+    height: auto;
   }
 
   // former president page end
@@ -941,7 +941,7 @@
 
   // former president page start
   .former-president-item .image {
-    height: 209px;
+    height: auto;
   }
 
   // former president page end
@@ -1160,7 +1160,7 @@
 
   // former president page start
   .former-president-item .image {
-    height: 239px;
+    height: auto;
   }
 
   // former president page end
@@ -1531,7 +1531,7 @@
   // contact part end
   // former president page start
   .former-president-item .image {
-    height: 379px;
+    height: auto;
   }
 
   // former president page end
@@ -1672,28 +1672,28 @@
   .common-search .search-field {
     max-width: unset;
   }
-// member list page start
-.member-top-search .title h2 {
-  font-size: 22px;
-}
+  // member list page start
+  .member-top-search .title h2 {
+    font-size: 22px;
+  }
 
-.member-top-search .sort-by {
-  margin-bottom: 14px;
-}
+  .member-top-search .sort-by {
+    margin-bottom: 14px;
+  }
 
-.member-top-search .text-title {
-  margin-bottom: 14px;
-}
+  .member-top-search .text-title {
+    margin-bottom: 14px;
+  }
 
-.member-top-search .search-top .search-btn {
-  width: 100%;
-}
+  .member-top-search .search-top .search-btn {
+    width: 100%;
+  }
 
-.advance-search .search-btn {
-  width: 100% !important;
-}
+  .advance-search .search-btn {
+    width: 100% !important;
+  }
 
-// member list page end
+  // member list page end
 }
 
 @media (max-width:575.98px) {
@@ -2267,4 +2267,14 @@
   }
 
   // member list page end
+  .former-president-item .text {
+    min-height: auto;
+  }
+
+  .former-president-item .text button {
+    left: unset;
+    transform: unset;
+    width: 100%;
+    position: static;
+  }
 }

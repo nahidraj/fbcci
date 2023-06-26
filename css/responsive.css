@@ -446,7 +446,7 @@
     padding: 0 40px 0 40px; }
 
   .former-president-item .image {
-    height: 181px; }
+    height: auto; }
 
   .upcomming-event-page .upcomming-event-item .image {
     height: 200px; }
@@ -656,7 +656,7 @@
     height: 228px; }
 
   .former-president-item .image {
-    height: 209px; }
+    height: auto; }
 
   .news-list-page .news-item {
     margin-bottom: 24px; }
@@ -810,7 +810,7 @@
     height: 258px; }
 
   .former-president-item .image {
-    height: 239px; }
+    height: auto; }
 
   .upcomming-event-page .upcomming-event-item .image {
     height: 203px; }
@@ -1074,7 +1074,7 @@
     padding-top: 60px; }
 
   .former-president-item .image {
-    height: 379px; }
+    height: auto; }
 
   .upcomming-event-page .upcomming-event-item .image {
     height: auto; }
@@ -1607,6 +1607,15 @@
     width: 100%; }
 
   .advance-search .search-btn {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .former-president-item .text {
+    min-height: auto; }
+
+  .former-president-item .text button {
+    left: unset;
+    transform: unset;
+    width: 100%;
+    position: static; } }
 
 /*# sourceMappingURL=responsive.css.map */

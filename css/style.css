@@ -2017,7 +2017,7 @@ footer {
   margin-bottom: 24px; }
   .former-president-item .image {
     border-radius: 8px;
-    height: 216px; }
+    height: auto; }
     .former-president-item .image img {
       border-radius: 8px;
       height: 100%;
@@ -2025,13 +2025,19 @@ footer {
       object-position: center; }
   .former-president-item .text {
     padding-top: 20px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    min-height: 179px;
+    position: relative; }
     .former-president-item .text h4 {
-      font-size: 22px;
+      font-size: 19px;
       font-weight: 700;
       margin-bottom: 8px;
       color: #171C49;
-      transition: all linear .2s; }
+      transition: all linear .2s;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; }
     .former-president-item .text ul li {
       margin-bottom: 2px;
       font-size: 15px;
@@ -2045,7 +2051,12 @@ footer {
       margin-top: 10px;
       color: #ffffff;
       font-size: 14px;
-      font-weight: 600; }
+      font-weight: 600;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%; }
   .former-president-item:hover h4 {
     color: #F4462F; }
 
