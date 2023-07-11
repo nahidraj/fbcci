@@ -485,16 +485,13 @@
     font-size: 14px !important; }
 
   .banner__slider .banner-content h2 {
-    font-size: 28px; }
+    font-size: 22px; }
 
   .banner__slider .banner-content {
     padding-right: 40px;
     padding-left: 40px;
     padding-top: 30px;
     padding-bottom: 15px; }
-
-  .banner__slider .banner-content h2 {
-    font-size: 30px; }
 
   .banner__slider {
     height: 331px;
@@ -509,6 +506,10 @@
   .banner__slider .image {
     height: 331px;
     padding-left: 0; }
+
+  .banner__slider .banner-content p {
+    font-size: 15px;
+    line-height: 24px; }
 
   .anim-img {
     position: absolute;
@@ -637,11 +638,8 @@
     height: 199px; }
 
   .upcomming-event-box .upcomming-event-item .text {
-    padding: 10px;
+    padding: 22px;
     padding-top: 20px; }
-
-  .upcomming-event-box .upcomming-event-item .text span {
-    margin: 14px 0 10px 0; }
 
   .event-item .image {
     height: 233px; }
@@ -793,11 +791,8 @@
     height: 199px; }
 
   .upcomming-event-box .upcomming-event-item .text {
-    padding: 10px;
+    padding: 22px;
     padding-top: 20px; }
-
-  .upcomming-event-box .upcomming-event-item .text span {
-    margin: 14px 0 10px 0; }
 
   .event-item .image {
     height: 257px; }
@@ -1193,13 +1188,17 @@
     width: 100% !important; } }
 @media (max-width: 575.98px) {
   body {
-    font-size: 15px; }
+    font-size: 14px; }
 
   .banner__slider .image {
     height: auto; }
 
   .banner__slider .banner-content h2 {
-    font-size: 26px; }
+    font-size: 22px; }
+
+  .banner__slider .banner-content p {
+    font-size: 15px;
+    line-height: 24px; }
 
   .banner__slider {
     height: auto; }
@@ -1210,6 +1209,14 @@
   .banner__slider .banner-content {
     padding-right: 12px;
     padding-left: 12px; }
+
+  .banner__slider .swiper-button-next {
+    right: 20px;
+    display: none; }
+
+  .banner__slider .swiper-button-prev {
+    right: 20px;
+    display: none; }
 
   .about .about-image .img {
     height: auto; }

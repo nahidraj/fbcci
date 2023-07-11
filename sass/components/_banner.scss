@@ -35,12 +35,14 @@
       margin-top: 0;
       @include font(46px, 700);
       color: $white;
+      margin-bottom: 20px
     }
 
     p {
       @include font(16px, 500);
       color: $white;
       line-height: 28px;
+      text-align: justify;
     }
 
     .read-more-btn {

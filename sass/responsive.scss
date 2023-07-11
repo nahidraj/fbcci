@@ -712,7 +712,7 @@
 
   // banner part start
   .banner__slider .banner-content h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .banner__slider .banner-content {
@@ -721,11 +721,6 @@
     padding-top: 30px;
     padding-bottom: 15px;
   }
-
-  .banner__slider .banner-content h2 {
-    font-size: 30px;
-  }
-
   .banner__slider {
     height: 331px;
     width: 960px;
@@ -741,6 +736,11 @@
   .banner__slider .image {
     height: 331px;
     padding-left: 0;
+  }
+
+  .banner__slider .banner-content p {
+    font-size: 15px;
+    line-height: 24px;
   }
 
   // banner part end
@@ -914,12 +914,12 @@
   }
 
   .upcomming-event-box .upcomming-event-item .text {
-    padding: 10px;
+    padding: 22px;
     padding-top: 20px;
   }
 
   .upcomming-event-box .upcomming-event-item .text span {
-    margin: 14px 0 10px 0;
+    // margin: 14px 0 10px 0;
   }
 
   // upcomming event part end
@@ -1136,12 +1136,12 @@
   }
 
   .upcomming-event-box .upcomming-event-item .text {
-    padding: 10px;
+    padding: 22px;
     padding-top: 20px;
   }
 
   .upcomming-event-box .upcomming-event-item .text span {
-    margin: 14px 0 10px 0;
+    // margin: 14px 0 10px 0;
   }
 
   // upcomming event part end
@@ -1698,7 +1698,7 @@
 
 @media (max-width:575.98px) {
   body {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   // banner part start
@@ -1708,7 +1708,12 @@
   }
 
   .banner__slider .banner-content h2 {
-    font-size: 26px;
+    font-size: 22px;
+    }
+
+    .banner__slider .banner-content p {
+      font-size: 15px;
+      line-height: 24px;
   }
 
   .banner__slider {
@@ -1722,6 +1727,16 @@
   .banner__slider .banner-content {
     padding-right: 12px;
     padding-left: 12px;
+  }
+
+  .banner__slider .swiper-button-next {
+    right: 20px;
+    display: none;
+  }
+
+  .banner__slider .swiper-button-prev {
+    right: 20px;
+    display: none;
   }
 
   // banner part end
