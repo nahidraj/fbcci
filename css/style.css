@@ -1390,15 +1390,13 @@ nav {
   padding-top: 80px; }
 
 .event-item {
-  height: 553px;
+  height: 440px;
   overflow: hidden;
   background-color: #FDF5EB; }
-  .event-item .image {
-    height: 328px; }
-    .event-item .image img {
-      height: 100%;
-      object-fit: cover;
-      object-position: center; }
+  .event-item .image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center; }
   .event-item .text {
     position: relative;
     overflow: hidden;
@@ -2902,18 +2900,13 @@ footer {
   position: relative;
   height: 100px;
   background-color: #f1f1f1;
-  padding-left: 120px; }
+  padding-left: 177px; }
 
 .right-part .news-image {
   position: absolute;
   top: 0;
   left: 0;
-  width: 120px;
-  height: 100px; }
-
-.right-part .news-image img {
-  height: 100%;
-  object-fit: fill; }
+  width: 177px; }
 
 .right-part .news-text h4 {
   font-size: 18px;

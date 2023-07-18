@@ -428,13 +428,10 @@
     min-height: 506px; }
 
   .event-item {
-    height: 481px; }
+    height: 395px; }
 
   .event-item .text .title {
     font-size: 22px; }
-
-  .event-item .image {
-    height: 281px; }
 
   .gallery-item .image {
     height: 274px; }
@@ -638,14 +635,11 @@
     padding: 22px;
     padding-top: 20px; }
 
-  .event-item .image {
-    height: 233px; }
-
   .event-item .text .title {
     font-size: 18px; }
 
   .event-item {
-    height: 458px; }
+    height: 360px; }
 
   .gallery-item .image {
     height: 228px; }
@@ -787,11 +781,8 @@
     padding: 22px;
     padding-top: 20px; }
 
-  .event-item .image {
-    height: 257px; }
-
   .event-item {
-    height: 496px;
+    height: 394px;
     margin-top: 24px; }
 
   .gallery-item .image {
@@ -1019,9 +1010,6 @@
 
   .common-title {
     margin-bottom: 24px; }
-
-  .event-item .image {
-    height: 407px; }
 
   .event-item {
     height: auto;
