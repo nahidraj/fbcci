@@ -15,8 +15,7 @@
     font-size: 32px;
   }
 
-  // common css end
-
+  // common css end 
 
   // header part start
   .top-header .title p {
@@ -238,8 +237,8 @@
 
   // service part end
   // news part start
-  .news-item .news-image {
-    height: 364px;
+  .news-item .news-text {
+    top: -22px;
   }
 
   .news-item .news-text .title {
@@ -554,8 +553,8 @@
 
   // service part end
   // news part start
-  .news-item .news-image {
-    height: 311px;
+  .news-item .news-text {
+    top: -22px;
   }
 
   .news-item .news-text .title {
@@ -834,9 +833,6 @@
   }
 
   // news part start
-  .news-item .news-image {
-    height: 259px;
-  }
 
   .container-fluid {
     width: 960px;
@@ -956,7 +952,6 @@
 
   .fixed-sidebar-news {
     position: unset;
-    padding-left: 0;
     margin-top: 40px;
   }
 
@@ -1065,10 +1060,6 @@
   }
 
   // news part start
-  .news-item .news-image {
-    height: 294px;
-  }
-
 
   .container-fluid {
     width: 720px;
@@ -1179,7 +1170,6 @@
 
   .fixed-sidebar-news {
     position: unset;
-    padding-left: 0;
     margin-top: 40px;
   }
 
@@ -1375,10 +1365,6 @@
   }
 
   // news part start
-  .news-item .news-image {
-    height: 483px;
-  }
-
 
   .container-fluid {
     width: auto;
@@ -1559,7 +1545,6 @@
 
   .fixed-sidebar-news {
     position: unset;
-    padding-left: 0;
     margin-top: 40px;
   }
 
@@ -1709,11 +1694,11 @@
 
   .banner__slider .banner-content h2 {
     font-size: 22px;
-    }
+  }
 
-    .banner__slider .banner-content p {
-      font-size: 15px;
-      line-height: 24px;
+  .banner__slider .banner-content p {
+    font-size: 15px;
+    line-height: 24px;
   }
 
   .banner__slider {
@@ -2038,7 +2023,6 @@
 
   .fixed-sidebar-news {
     position: unset;
-    padding-left: 0;
     margin-top: 40px;
   }
 
@@ -2050,6 +2034,11 @@
     width: auto;
     margin-right: 0;
     margin-bottom: 20px;
+  }
+
+  .fixed-sidebar-news {
+    border: 0;
+    padding: 0;
   }
 
   // news details page end

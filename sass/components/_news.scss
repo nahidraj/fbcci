@@ -6,8 +6,9 @@
   margin-bottom: -70px;
   max-width: 1920px;
   margin: 0 auto;
-.common-btn {
-    margin-top: -40px;
+
+  .common-btn {
+    margin-top: 4px;
   }
 }
 
@@ -16,7 +17,6 @@
   border-top-left-radius: 10px;
 
   .news-image {
-    height: 445px;
     position: relative;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -34,10 +34,10 @@
 
   .news-text {
     width: 87%;
-    padding: 40px 24px;
+    padding: 20px 24px;
     background-color: #FBF7F3;
     position: relative;
-    top: -70px;
+    top: -34px;
 
     .date {
       top: 0;
@@ -84,7 +84,7 @@
     // }
 
     .title {
-      @include font(20px, 600);
+      @include font(18px, 700);
       color: $black;
       transition: all linear .2s;
       overflow: hidden;

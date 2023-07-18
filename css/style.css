@@ -1171,13 +1171,12 @@ nav {
   max-width: 1920px;
   margin: 0 auto; }
   .news .common-btn {
-    margin-top: -40px; }
+    margin-top: 4px; }
 
 .news-item {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px; }
   .news-item .news-image {
-    height: 445px;
     position: relative;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -1191,10 +1190,10 @@ nav {
       transition: all 0.5s ease 0s; }
   .news-item .news-text {
     width: 87%;
-    padding: 40px 24px;
+    padding: 20px 24px;
     background-color: #FBF7F3;
     position: relative;
-    top: -70px; }
+    top: -34px; }
     .news-item .news-text .date {
       top: 0;
       right: 0; }
@@ -1216,8 +1215,8 @@ nav {
         .news-item .news-text .date p i {
           padding-right: 8px; }
     .news-item .news-text .title {
-      font-size: 20px;
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 700;
       color: #171C49;
       transition: all linear .2s;
       overflow: hidden;
@@ -1485,7 +1484,7 @@ nav {
   .upcomming-event-item a {
     color: #171C49; }
   .upcomming-event-item .text {
-    padding: 32px 24px; }
+    padding: 35px 24px; }
     .upcomming-event-item .text .title {
       font-size: 20px;
       font-weight: 500;
@@ -2423,7 +2422,7 @@ footer {
   background-color: #f5f5f5;
   position: relative;
   min-height: 100px;
-  padding-left: 120px;
+  padding-left: 180px;
   margin-bottom: 14px; }
 
 .news-item-list a {
@@ -2434,8 +2433,8 @@ footer {
   color: #ffb631; }
 
 .news-item-list .img {
-  width: 120px;
-  height: 100px;
+  width: 180px;
+  height: auto;
   position: absolute;
   top: 0;
   left: 0; }
@@ -2468,7 +2467,8 @@ footer {
 .fixed-sidebar-news {
   position: sticky;
   top: 80px;
-  padding-left: 40px; }
+  border: 1px solid #ddd;
+  padding: 24px 24px 10px 24px; }
 
 .content-page {
   padding-top: 40px;
