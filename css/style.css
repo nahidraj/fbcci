@@ -2646,6 +2646,12 @@ footer {
   color: #171C49;
   padding: 6px 10px; }
 
+.content-table .action {
+  background-color: #F4462F;
+  border: 0;
+  padding: 5px 10px;
+  color: #ffffff; }
+
 .publication {
   padding-top: 40px;
   margin-bottom: -56px; }

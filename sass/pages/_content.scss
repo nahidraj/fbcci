@@ -213,48 +213,56 @@
   li:nth-child(12) {
     background-color: #4C4B16;
   }
+}
+
+.content-background-style {
+  background-color: $themeColor;
+  @include font(16px, 700);
+  color: $white;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.content-border-style {
+  border-bottom: 1px solid $black;
+  padding-bottom: 10px;
+  color: $black;
+}
+
+.content-after-border-style {
+  position: relative;
+  padding-bottom: 10px;
+  color: $black;
+
+  &::before {
+    width: 100px;
+    height: 2px;
+    background-color: $black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+  }
   }
 
-  .content-background-style {
+.content-border-dash-style {
+  border: 2px dashed $black;
+  @include font(16px, 600);
+  color: $black;
+  padding: 6px 10px;
+}
+
+.content-border-dots-style {
+  border: 2px dotted $black;
+  @include font(16px, 600);
+  color: $black;
+  padding: 6px 10px;
+}
+.content-table {
+  .action {
     background-color: $themeColor;
-    @include font(16px, 700);
+    border: 0;
+    padding: 5px 10px;
     color: $white;
-    padding: 8px;
-    border-radius: 3px;
   }
-
-  .content-border-style {
-    border-bottom: 1px solid $black;
-    padding-bottom: 10px;
-    color: $black;
-  }
-
-  .content-after-border-style {
-    position: relative;
-    padding-bottom: 10px;
-    color: $black;
-
-    &::before {
-      width: 100px;
-      height: 2px;
-      background-color: $black;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      content: "";
-    }
-  }
-
-  .content-border-dash-style {
-    border: 2px dashed $black;
-    @include font(16px, 600);
-    color: $black;
-    padding: 6px 10px;
-  }
-
-  .content-border-dots-style {
-    border: 2px dotted $black;
-    @include font(16px, 600);
-    color: $black;
-    padding: 6px 10px;
 }
