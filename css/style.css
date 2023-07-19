@@ -1622,15 +1622,17 @@ nav {
         line-height: 59px;
         transition: all linear .2s; }
   .gallery-item .text {
-    padding: 20px 30px; }
+    padding: 20px 30px;
+    min-height: 124px; }
     .gallery-item .text h4 {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 700;
       color: #171C49;
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical; }
+      -webkit-box-orient: vertical;
+      line-height: 28px; }
     .gallery-item .text p {
       margin-top: 10px;
       overflow: hidden;
@@ -2521,6 +2523,129 @@ footer {
     position: absolute;
     top: 26px;
     left: 45px; }
+
+.content-ul {
+  padding-left: 12px; }
+  .content-ul li {
+    line-height: 30px; }
+
+.custom-content-ul {
+  list-style: none; }
+  .custom-content-ul li {
+    line-height: 36px; }
+    .custom-content-ul li img {
+      margin-right: 5px; }
+
+.custom-ul-inline-style {
+  list-style: none; }
+  .custom-ul-inline-style li {
+    display: inline-block;
+    padding: 4px 20px;
+    border-radius: 3px;
+    background-color: #F4462F;
+    margin-right: 8px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600; }
+  .custom-ul-inline-style li:nth-child(2) {
+    background-color: #6528F7; }
+  .custom-ul-inline-style li:nth-child(3) {
+    background-color: #F31559; }
+  .custom-ul-inline-style li:nth-child(4) {
+    background-color: #1D5D9B; }
+  .custom-ul-inline-style li:nth-child(5) {
+    background-color: #EF6262; }
+  .custom-ul-inline-style li:nth-child(6) {
+    background-color: #9376E0; }
+  .custom-ul-inline-style li:nth-child(7) {
+    background-color: #40128B; }
+  .custom-ul-inline-style li:nth-child(8) {
+    background-color: #EA906C; }
+  .custom-ul-inline-style li:nth-child(9) {
+    background-color: #A0C49D; }
+  .custom-ul-inline-style li:nth-child(10) {
+    background-color: #E966A0; }
+  .custom-ul-inline-style li:nth-child(11) {
+    background-color: #525FE1; }
+  .custom-ul-inline-style li:nth-child(12) {
+    background-color: #4C4B16; }
+
+.custom-ul-block-style {
+  list-style: none; }
+  .custom-ul-block-style li {
+    display: inline-block;
+    width: 100%;
+    padding: 4px 20px;
+    border-radius: 3px;
+    background-color: #F4462F;
+    margin-right: 8px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600; }
+  .custom-ul-block-style li:nth-child(2) {
+    background-color: #11009E; }
+  .custom-ul-block-style li:nth-child(3) {
+    background-color: #F31559; }
+  .custom-ul-block-style li:nth-child(4) {
+    background-color: #116D6E; }
+  .custom-ul-block-style li:nth-child(5) {
+    background-color: #EF6262; }
+  .custom-ul-block-style li:nth-child(6) {
+    background-color: #9376E0; }
+  .custom-ul-block-style li:nth-child(7) {
+    background-color: #40128B; }
+  .custom-ul-block-style li:nth-child(8) {
+    background-color: #EA906C; }
+  .custom-ul-block-style li:nth-child(9) {
+    background-color: #A0C49D; }
+  .custom-ul-block-style li:nth-child(10) {
+    background-color: #E966A0; }
+  .custom-ul-block-style li:nth-child(11) {
+    background-color: #525FE1; }
+  .custom-ul-block-style li:nth-child(12) {
+    background-color: #4C4B16; }
+
+.content-background-style {
+  background-color: #F4462F;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 3px; }
+
+.content-border-style {
+  border-bottom: 1px solid #171C49;
+  padding-bottom: 10px;
+  color: #171C49; }
+
+.content-after-border-style {
+  position: relative;
+  padding-bottom: 10px;
+  color: #171C49; }
+  .content-after-border-style::before {
+    width: 100px;
+    height: 2px;
+    background-color: #171C49;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: ""; }
+
+.content-border-dash-style {
+  border: 2px dashed #171C49;
+  font-size: 16px;
+  font-weight: 600;
+  color: #171C49;
+  padding: 6px 10px; }
+
+.content-border-dots-style {
+  border: 2px dotted #171C49;
+  font-size: 16px;
+  font-weight: 600;
+  color: #171C49;
+  padding: 6px 10px; }
 
 .publication {
   padding-top: 40px;
