@@ -433,9 +433,6 @@
   .event-item .text .title {
     font-size: 22px; }
 
-  .gallery-item .image {
-    height: 274px; }
-
   footer .footer-bg .footer-title {
     font-size: 22px; }
 
@@ -641,9 +638,6 @@
   .event-item {
     height: 360px; }
 
-  .gallery-item .image {
-    height: 228px; }
-
   .former-president-item .image {
     height: auto; }
 
@@ -784,9 +778,6 @@
   .event-item {
     height: 394px;
     margin-top: 24px; }
-
-  .gallery-item .image {
-    height: 258px; }
 
   .former-president-item .image {
     height: auto; }
@@ -1032,9 +1023,6 @@
   .gallery .gallery-menu .nav-link {
     font-size: 15px;
     padding: 9px 20px; }
-
-  .gallery-item .image {
-    height: 397px; }
 
   footer .footer-bg {
     padding: 50px 0 20px 0; }
