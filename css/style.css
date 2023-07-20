@@ -1584,7 +1584,12 @@ nav {
   transition: all 0.3s ease 0s; }
   .gallery-item .image {
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    height: 300px; }
+    .gallery-item .image img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center; }
     .gallery-item .image::before {
       width: 100%;
       height: 100%;
@@ -2719,40 +2724,49 @@ footer {
 .image-gallery-view {
   padding-top: 40px;
   margin-bottom: -40px; }
-  .image-gallery-view .gallery-item .icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: all linear .2s;
-    opacity: 0;
-    visibility: hidden;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px; }
-    .image-gallery-view .gallery-item .icon a {
-      width: 42px;
-      height: 42px;
-      background-color: #ffffff;
-      text-align: center;
-      line-height: 42px;
-      border-radius: 50%;
-      color: #F4462F;
-      cursor: pointer;
-      transition: all linear .2s; }
-      .image-gallery-view .gallery-item .icon a:hover {
-        background-color: #F4462F;
+  .image-gallery-view .gallery-item {
+    box-shadow: none; }
+    .image-gallery-view .gallery-item .image {
+      height: 416px;
+      background-color: #8f8f8f; }
+      .image-gallery-view .gallery-item .image img {
+        height: 100%;
+        object-fit: contain;
+        object-position: center; }
+    .image-gallery-view .gallery-item .icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all linear .2s;
+      opacity: 0;
+      visibility: hidden;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px; }
+      .image-gallery-view .gallery-item .icon a {
+        width: 42px;
+        height: 42px;
+        background-color: #ffffff;
+        text-align: center;
+        line-height: 42px;
+        border-radius: 50%;
+        color: #F4462F;
+        cursor: pointer;
+        transition: all linear .2s; }
+        .image-gallery-view .gallery-item .icon a:hover {
+          background-color: #F4462F;
+          color: #ffffff; }
+      .image-gallery-view .gallery-item .icon h6 {
+        font-size: 20px;
+        font-weight: 600;
         color: #ffffff; }
-    .image-gallery-view .gallery-item .icon h6 {
-      font-size: 20px;
-      font-weight: 600;
-      color: #ffffff; }
-  .image-gallery-view .gallery-item:hover .icon {
-    visibility: visible;
-    opacity: 1; }
+    .image-gallery-view .gallery-item:hover .icon {
+      visibility: visible;
+      opacity: 1; }
 
 .video-gallery-view {
   padding-top: 40px;

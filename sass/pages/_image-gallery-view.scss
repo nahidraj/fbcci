@@ -6,6 +6,19 @@
   margin-bottom: -40px;
 
   .gallery-item {
+    box-shadow: none;
+
+    .image {
+      height: 416px;
+      background-color: #8f8f8f;
+
+      img {
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+
     .icon {
       position: absolute;
       top: 50%;
