@@ -2041,6 +2041,8 @@ footer {
       font-size: 14px;
       font-weight: 600;
       color: #171C49; }
+      .former-president-item .text ul li span {
+        font-size: 12px; }
     .former-president-item .text button {
       background-color: #F4462F;
       border-radius: 3px;
