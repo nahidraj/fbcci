@@ -31,11 +31,11 @@
   .text {
     padding-top: 20px;
     padding-bottom: 10px;
-    min-height: 179px;
+    min-height: 185px;
     position: relative;
 
     h4 {
-      @include font(19px, 700);
+      @include font(16px, 700);
       margin-bottom: 8px;
       color: $black;
       transition: all linear .2s;
@@ -48,7 +48,7 @@
     ul {
       li {
         margin-bottom: 2px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
         color: $black;
       }

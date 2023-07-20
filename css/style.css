@@ -2024,10 +2024,10 @@ footer {
   .former-president-item .text {
     padding-top: 20px;
     padding-bottom: 10px;
-    min-height: 179px;
+    min-height: 185px;
     position: relative; }
     .former-president-item .text h4 {
-      font-size: 19px;
+      font-size: 16px;
       font-weight: 700;
       margin-bottom: 8px;
       color: #171C49;
@@ -2038,7 +2038,7 @@ footer {
       -webkit-box-orient: vertical; }
     .former-president-item .text ul li {
       margin-bottom: 2px;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
       color: #171C49; }
     .former-president-item .text button {
